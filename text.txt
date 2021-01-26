@@ -1,0 +1,15 @@
+Environment: Python (simple scripting)
+Igor
+SubTask 1
+BlackfyreInc
+Igor Falendysh
+74731862
+https://avatars.githubusercontent.com/u/74731862?v=4
+2020-11-19 17:35:05
+0
+Subtask 2
+333096633
+https://github.com/BlackfyreInc/anothertry
+BlackfyreInc/anothertry
+BlackfyreInc
+main
