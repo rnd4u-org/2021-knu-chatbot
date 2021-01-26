@@ -1,0 +1,3 @@
+Environment: Python (simple scripting)
+Demyd Teslenko
+=======================================
