@@ -1,0 +1,18 @@
+Environment: Python(simple scripting)
+Diana Andresiuk
+
+SubTask1:
+
+Login:  Diannell
+ID:  77590010
+Avatar url:  https://avatars.githubusercontent.com/u/77590010?v=4
+Created at:  2021-01-17 20:59:58
+Followers:  0
+
+SubTask2:
+
+ID:  334382254
+Full name:  Diannell/New
+Owner login:  Diannell
+Default branch:  main
+HTML url:  https://github.com/Diannell/New
