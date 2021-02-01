@@ -1,14 +1,14 @@
 QUESTION 1: How many files does this repository have? 
 
 ***TOKENS*** 
-id: (1,)	 text: How
-id: (2,)	 text: many
-id: (3,)	 text: files
-id: (4,)	 text: does
-id: (5,)	 text: this
-id: (6,)	 text: repository
-id: (7,)	 text: have
-id: (8,)	 text: ?
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: files
+	id: (4,)	 text: does
+	id: (5,)	 text: this
+	id: (6,)	 text: repository
+	id: (7,)	 text: have
+	id: (8,)	 text: ?
 
 ***POS TAGS*** 
 	How -- ADV
@@ -35,14 +35,14 @@ id: (8,)	 text: ?
 QUESTION 2: How many folders does this repository have? 
 
 ***TOKENS*** 
-id: (1,)	 text: How
-id: (2,)	 text: many
-id: (3,)	 text: folders
-id: (4,)	 text: does
-id: (5,)	 text: this
-id: (6,)	 text: repository
-id: (7,)	 text: have
-id: (8,)	 text: ?
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: folders
+	id: (4,)	 text: does
+	id: (5,)	 text: this
+	id: (6,)	 text: repository
+	id: (7,)	 text: have
+	id: (8,)	 text: ?
 
 ***POS TAGS*** 
 	How -- ADV
@@ -69,15 +69,15 @@ id: (8,)	 text: ?
 QUESTION 3: How many contributors does the Tensorflow project have? 
 
 ***TOKENS*** 
-id: (1,)	 text: How
-id: (2,)	 text: many
-id: (3,)	 text: contributors
-id: (4,)	 text: does
-id: (5,)	 text: the
-id: (6,)	 text: Tensorflow
-id: (7,)	 text: project
-id: (8,)	 text: have
-id: (9,)	 text: ?
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: contributors
+	id: (4,)	 text: does
+	id: (5,)	 text: the
+	id: (6,)	 text: Tensorflow
+	id: (7,)	 text: project
+	id: (8,)	 text: have
+	id: (9,)	 text: ?
 
 ***POS TAGS*** 
 	How -- ADV
@@ -107,15 +107,15 @@ id: (9,)	 text: ?
 QUESTION 4: How many stars does the Tensorflow project have? 
 
 ***TOKENS*** 
-id: (1,)	 text: How
-id: (2,)	 text: many
-id: (3,)	 text: stars
-id: (4,)	 text: does
-id: (5,)	 text: the
-id: (6,)	 text: Tensorflow
-id: (7,)	 text: project
-id: (8,)	 text: have
-id: (9,)	 text: ?
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: stars
+	id: (4,)	 text: does
+	id: (5,)	 text: the
+	id: (6,)	 text: Tensorflow
+	id: (7,)	 text: project
+	id: (8,)	 text: have
+	id: (9,)	 text: ?
 
 ***POS TAGS*** 
 	How -- ADV
@@ -145,14 +145,14 @@ id: (9,)	 text: ?
 QUESTION 5: How many branches does this repository have? 
 
 ***TOKENS*** 
-id: (1,)	 text: How
-id: (2,)	 text: many
-id: (3,)	 text: branches
-id: (4,)	 text: does
-id: (5,)	 text: this
-id: (6,)	 text: repository
-id: (7,)	 text: have
-id: (8,)	 text: ?
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: branches
+	id: (4,)	 text: does
+	id: (5,)	 text: this
+	id: (6,)	 text: repository
+	id: (7,)	 text: have
+	id: (8,)	 text: ?
 
 ***POS TAGS*** 
 	How -- ADV
@@ -179,20 +179,20 @@ id: (8,)	 text: ?
 QUESTION 6: How many branches which have more than 10 contributions does this repository have? 
 
 ***TOKENS*** 
-id: (1,)	 text: How
-id: (2,)	 text: many
-id: (3,)	 text: branches
-id: (4,)	 text: which
-id: (5,)	 text: have
-id: (6,)	 text: more
-id: (7,)	 text: than
-id: (8,)	 text: 10
-id: (9,)	 text: contributions
-id: (10,)	 text: does
-id: (11,)	 text: this
-id: (12,)	 text: repository
-id: (13,)	 text: have
-id: (14,)	 text: ?
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: branches
+	id: (4,)	 text: which
+	id: (5,)	 text: have
+	id: (6,)	 text: more
+	id: (7,)	 text: than
+	id: (8,)	 text: 10
+	id: (9,)	 text: contributions
+	id: (10,)	 text: does
+	id: (11,)	 text: this
+	id: (12,)	 text: repository
+	id: (13,)	 text: have
+	id: (14,)	 text: ?
 
 ***POS TAGS*** 
 	How -- ADV
@@ -232,15 +232,15 @@ id: (14,)	 text: ?
 QUESTION 7: How many tags does the Tensorflow project have? 
 
 ***TOKENS*** 
-id: (1,)	 text: How
-id: (2,)	 text: many
-id: (3,)	 text: tags
-id: (4,)	 text: does
-id: (5,)	 text: the
-id: (6,)	 text: Tensorflow
-id: (7,)	 text: project
-id: (8,)	 text: have
-id: (9,)	 text: ?
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: tags
+	id: (4,)	 text: does
+	id: (5,)	 text: the
+	id: (6,)	 text: Tensorflow
+	id: (7,)	 text: project
+	id: (8,)	 text: have
+	id: (9,)	 text: ?
 
 ***POS TAGS*** 
 	How -- ADV
@@ -270,14 +270,14 @@ id: (9,)	 text: ?
 QUESTION 8: How many contributions does this repository have? 
 
 ***TOKENS*** 
-id: (1,)	 text: How
-id: (2,)	 text: many
-id: (3,)	 text: contributions
-id: (4,)	 text: does
-id: (5,)	 text: this
-id: (6,)	 text: repository
-id: (7,)	 text: have
-id: (8,)	 text: ?
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: contributions
+	id: (4,)	 text: does
+	id: (5,)	 text: this
+	id: (6,)	 text: repository
+	id: (7,)	 text: have
+	id: (8,)	 text: ?
 
 ***POS TAGS*** 
 	How -- ADV
@@ -304,15 +304,15 @@ id: (8,)	 text: ?
 QUESTION 9: How many pull requests does this repository have? 
 
 ***TOKENS*** 
-id: (1,)	 text: How
-id: (2,)	 text: many
-id: (3,)	 text: pull
-id: (4,)	 text: requests
-id: (5,)	 text: does
-id: (6,)	 text: this
-id: (7,)	 text: repository
-id: (8,)	 text: have
-id: (9,)	 text: ?
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: pull
+	id: (4,)	 text: requests
+	id: (5,)	 text: does
+	id: (6,)	 text: this
+	id: (7,)	 text: repository
+	id: (8,)	 text: have
+	id: (9,)	 text: ?
 
 ***POS TAGS*** 
 	How -- ADV
@@ -341,14 +341,14 @@ id: (9,)	 text: ?
 QUESTION 10: How many developers are watching this project? 
 
 ***TOKENS*** 
-id: (1,)	 text: How
-id: (2,)	 text: many
-id: (3,)	 text: developers
-id: (4,)	 text: are
-id: (5,)	 text: watching
-id: (6,)	 text: this
-id: (7,)	 text: project
-id: (8,)	 text: ?
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: developers
+	id: (4,)	 text: are
+	id: (5,)	 text: watching
+	id: (6,)	 text: this
+	id: (7,)	 text: project
+	id: (8,)	 text: ?
 
 ***POS TAGS*** 
 	How -- ADV
@@ -375,14 +375,14 @@ id: (8,)	 text: ?
 QUESTION 11: How many subfolders does this folder have? 
 
 ***TOKENS*** 
-id: (1,)	 text: How
-id: (2,)	 text: many
-id: (3,)	 text: subfolders
-id: (4,)	 text: does
-id: (5,)	 text: this
-id: (6,)	 text: folder
-id: (7,)	 text: have
-id: (8,)	 text: ?
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: subfolders
+	id: (4,)	 text: does
+	id: (5,)	 text: this
+	id: (6,)	 text: folder
+	id: (7,)	 text: have
+	id: (8,)	 text: ?
 
 ***POS TAGS*** 
 	How -- ADV
@@ -409,17 +409,17 @@ id: (8,)	 text: ?
 QUESTION 12: How many lines of text does the certain file have? 
 
 ***TOKENS*** 
-id: (1,)	 text: How
-id: (2,)	 text: many
-id: (3,)	 text: lines
-id: (4,)	 text: of
-id: (5,)	 text: text
-id: (6,)	 text: does
-id: (7,)	 text: the
-id: (8,)	 text: certain
-id: (9,)	 text: file
-id: (10,)	 text: have
-id: (11,)	 text: ?
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: lines
+	id: (4,)	 text: of
+	id: (5,)	 text: text
+	id: (6,)	 text: does
+	id: (7,)	 text: the
+	id: (8,)	 text: certain
+	id: (9,)	 text: file
+	id: (10,)	 text: have
+	id: (11,)	 text: ?
 
 ***POS TAGS*** 
 	How -- ADV
@@ -452,15 +452,15 @@ id: (11,)	 text: ?
 QUESTION 13: How many people are using the Tensorflow project? 
 
 ***TOKENS*** 
-id: (1,)	 text: How
-id: (2,)	 text: many
-id: (3,)	 text: people
-id: (4,)	 text: are
-id: (5,)	 text: using
-id: (6,)	 text: the
-id: (7,)	 text: Tensorflow
-id: (8,)	 text: project
-id: (9,)	 text: ?
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: people
+	id: (4,)	 text: are
+	id: (5,)	 text: using
+	id: (6,)	 text: the
+	id: (7,)	 text: Tensorflow
+	id: (8,)	 text: project
+	id: (9,)	 text: ?
 
 ***POS TAGS*** 
 	How -- ADV
@@ -490,15 +490,15 @@ id: (9,)	 text: ?
 QUESTION 14: How many forks does the certain project have? 
 
 ***TOKENS*** 
-id: (1,)	 text: How
-id: (2,)	 text: many
-id: (3,)	 text: forks
-id: (4,)	 text: does
-id: (5,)	 text: the
-id: (6,)	 text: certain
-id: (7,)	 text: project
-id: (8,)	 text: have
-id: (9,)	 text: ?
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: forks
+	id: (4,)	 text: does
+	id: (5,)	 text: the
+	id: (6,)	 text: certain
+	id: (7,)	 text: project
+	id: (8,)	 text: have
+	id: (9,)	 text: ?
 
 ***POS TAGS*** 
 	How -- ADV
@@ -527,17 +527,17 @@ id: (9,)	 text: ?
 QUESTION 15: How many .py files does the certain project have? 
 
 ***TOKENS*** 
-id: (1,)	 text: How
-id: (2,)	 text: many
-id: (3,)	 text: .
-id: (4,)	 text: py
-id: (5,)	 text: files
-id: (6,)	 text: does
-id: (7,)	 text: the
-id: (8,)	 text: certain
-id: (9,)	 text: project
-id: (10,)	 text: have
-id: (11,)	 text: ?
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: .
+	id: (4,)	 text: py
+	id: (5,)	 text: files
+	id: (6,)	 text: does
+	id: (7,)	 text: the
+	id: (8,)	 text: certain
+	id: (9,)	 text: project
+	id: (10,)	 text: have
+	id: (11,)	 text: ?
 
 ***POS TAGS*** 
 	How -- ADV
@@ -570,17 +570,17 @@ id: (11,)	 text: ?
 QUESTION 16: When was the last contribution made on the Tensorflow project? 
 
 ***TOKENS*** 
-id: (1,)	 text: When
-id: (2,)	 text: was
-id: (3,)	 text: the
-id: (4,)	 text: last
-id: (5,)	 text: contribution
-id: (6,)	 text: made
-id: (7,)	 text: on
-id: (8,)	 text: the
-id: (9,)	 text: Tensorflow
-id: (10,)	 text: project
-id: (11,)	 text: ?
+	id: (1,)	 text: When
+	id: (2,)	 text: was
+	id: (3,)	 text: the
+	id: (4,)	 text: last
+	id: (5,)	 text: contribution
+	id: (6,)	 text: made
+	id: (7,)	 text: on
+	id: (8,)	 text: the
+	id: (9,)	 text: Tensorflow
+	id: (10,)	 text: project
+	id: (11,)	 text: ?
 
 ***POS TAGS*** 
 	When -- ADV
@@ -614,13 +614,13 @@ id: (11,)	 text: ?
 QUESTION 17: When was the last branch created? 
 
 ***TOKENS*** 
-id: (1,)	 text: When
-id: (2,)	 text: was
-id: (3,)	 text: the
-id: (4,)	 text: last
-id: (5,)	 text: branch
-id: (6,)	 text: created
-id: (7,)	 text: ?
+	id: (1,)	 text: When
+	id: (2,)	 text: was
+	id: (3,)	 text: the
+	id: (4,)	 text: last
+	id: (5,)	 text: branch
+	id: (6,)	 text: created
+	id: (7,)	 text: ?
 
 ***POS TAGS*** 
 	When -- ADV
@@ -645,14 +645,14 @@ id: (7,)	 text: ?
 QUESTION 18: When was the last pull request made? 
 
 ***TOKENS*** 
-id: (1,)	 text: When
-id: (2,)	 text: was
-id: (3,)	 text: the
-id: (4,)	 text: last
-id: (5,)	 text: pull
-id: (6,)	 text: request
-id: (7,)	 text: made
-id: (8,)	 text: ?
+	id: (1,)	 text: When
+	id: (2,)	 text: was
+	id: (3,)	 text: the
+	id: (4,)	 text: last
+	id: (5,)	 text: pull
+	id: (6,)	 text: request
+	id: (7,)	 text: made
+	id: (8,)	 text: ?
 
 ***POS TAGS*** 
 	When -- ADV
@@ -679,13 +679,13 @@ id: (8,)	 text: ?
 QUESTION 19: When was the last file added? 
 
 ***TOKENS*** 
-id: (1,)	 text: When
-id: (2,)	 text: was
-id: (3,)	 text: the
-id: (4,)	 text: last
-id: (5,)	 text: file
-id: (6,)	 text: added
-id: (7,)	 text: ?
+	id: (1,)	 text: When
+	id: (2,)	 text: was
+	id: (3,)	 text: the
+	id: (4,)	 text: last
+	id: (5,)	 text: file
+	id: (6,)	 text: added
+	id: (7,)	 text: ?
 
 ***POS TAGS*** 
 	When -- ADV
@@ -710,13 +710,13 @@ id: (7,)	 text: ?
 QUESTION 20: When was the last contributor added? 
 
 ***TOKENS*** 
-id: (1,)	 text: When
-id: (2,)	 text: was
-id: (3,)	 text: the
-id: (4,)	 text: last
-id: (5,)	 text: contributor
-id: (6,)	 text: added
-id: (7,)	 text: ?
+	id: (1,)	 text: When
+	id: (2,)	 text: was
+	id: (3,)	 text: the
+	id: (4,)	 text: last
+	id: (5,)	 text: contributor
+	id: (6,)	 text: added
+	id: (7,)	 text: ?
 
 ***POS TAGS*** 
 	When -- ADV
@@ -741,15 +741,15 @@ id: (7,)	 text: ?
 QUESTION 21: When was the last .jpg file added? 
 
 ***TOKENS*** 
-id: (1,)	 text: When
-id: (2,)	 text: was
-id: (3,)	 text: the
-id: (4,)	 text: last
-id: (5,)	 text: .
-id: (6,)	 text: jpg
-id: (7,)	 text: file
-id: (8,)	 text: added
-id: (9,)	 text: ?
+	id: (1,)	 text: When
+	id: (2,)	 text: was
+	id: (3,)	 text: the
+	id: (4,)	 text: last
+	id: (5,)	 text: .
+	id: (6,)	 text: jpg
+	id: (7,)	 text: file
+	id: (8,)	 text: added
+	id: (9,)	 text: ?
 
 ***POS TAGS*** 
 	When -- ADV
@@ -778,15 +778,15 @@ id: (9,)	 text: ?
 QUESTION 22: When was the last README file changes made? 
 
 ***TOKENS*** 
-id: (1,)	 text: When
-id: (2,)	 text: was
-id: (3,)	 text: the
-id: (4,)	 text: last
-id: (5,)	 text: README
-id: (6,)	 text: file
-id: (7,)	 text: changes
-id: (8,)	 text: made
-id: (9,)	 text: ?
+	id: (1,)	 text: When
+	id: (2,)	 text: was
+	id: (3,)	 text: the
+	id: (4,)	 text: last
+	id: (5,)	 text: README
+	id: (6,)	 text: file
+	id: (7,)	 text: changes
+	id: (8,)	 text: made
+	id: (9,)	 text: ?
 
 ***POS TAGS*** 
 	When -- ADV
@@ -815,19 +815,19 @@ id: (9,)	 text: ?
 QUESTION 23: When was the last .png file uploaded on the master branch? 
 
 ***TOKENS*** 
-id: (1,)	 text: When
-id: (2,)	 text: was
-id: (3,)	 text: the
-id: (4,)	 text: last
-id: (5,)	 text: .
-id: (6,)	 text: png
-id: (7,)	 text: file
-id: (8,)	 text: uploaded
-id: (9,)	 text: on
-id: (10,)	 text: the
-id: (11,)	 text: master
-id: (12,)	 text: branch
-id: (13,)	 text: ?
+	id: (1,)	 text: When
+	id: (2,)	 text: was
+	id: (3,)	 text: the
+	id: (4,)	 text: last
+	id: (5,)	 text: .
+	id: (6,)	 text: png
+	id: (7,)	 text: file
+	id: (8,)	 text: uploaded
+	id: (9,)	 text: on
+	id: (10,)	 text: the
+	id: (11,)	 text: master
+	id: (12,)	 text: branch
+	id: (13,)	 text: ?
 
 ***POS TAGS*** 
 	When -- ADV
@@ -864,12 +864,12 @@ id: (13,)	 text: ?
 QUESTION 24: Who made the most commits? 
 
 ***TOKENS*** 
-id: (1,)	 text: Who
-id: (2,)	 text: made
-id: (3,)	 text: the
-id: (4,)	 text: most
-id: (5,)	 text: commits
-id: (6,)	 text: ?
+	id: (1,)	 text: Who
+	id: (2,)	 text: made
+	id: (3,)	 text: the
+	id: (4,)	 text: most
+	id: (5,)	 text: commits
+	id: (6,)	 text: ?
 
 ***POS TAGS*** 
 	Who -- PRON
@@ -892,13 +892,13 @@ id: (6,)	 text: ?
 QUESTION 25: Who made the last pull request? 
 
 ***TOKENS*** 
-id: (1,)	 text: Who
-id: (2,)	 text: made
-id: (3,)	 text: the
-id: (4,)	 text: last
-id: (5,)	 text: pull
-id: (6,)	 text: request
-id: (7,)	 text: ?
+	id: (1,)	 text: Who
+	id: (2,)	 text: made
+	id: (3,)	 text: the
+	id: (4,)	 text: last
+	id: (5,)	 text: pull
+	id: (6,)	 text: request
+	id: (7,)	 text: ?
 
 ***POS TAGS*** 
 	Who -- PRON
@@ -923,12 +923,12 @@ id: (7,)	 text: ?
 QUESTION 26: Who uploaded the last file? 
 
 ***TOKENS*** 
-id: (1,)	 text: Who
-id: (2,)	 text: uploaded
-id: (3,)	 text: the
-id: (4,)	 text: last
-id: (5,)	 text: file
-id: (6,)	 text: ?
+	id: (1,)	 text: Who
+	id: (2,)	 text: uploaded
+	id: (3,)	 text: the
+	id: (4,)	 text: last
+	id: (5,)	 text: file
+	id: (6,)	 text: ?
 
 ***POS TAGS*** 
 	Who -- PRON
@@ -951,15 +951,15 @@ id: (6,)	 text: ?
 QUESTION 27: Who is the creator of the Tensorflow project? 
 
 ***TOKENS*** 
-id: (1,)	 text: Who
-id: (2,)	 text: is
-id: (3,)	 text: the
-id: (4,)	 text: creator
-id: (5,)	 text: of
-id: (6,)	 text: the
-id: (7,)	 text: Tensorflow
-id: (8,)	 text: project
-id: (9,)	 text: ?
+	id: (1,)	 text: Who
+	id: (2,)	 text: is
+	id: (3,)	 text: the
+	id: (4,)	 text: creator
+	id: (5,)	 text: of
+	id: (6,)	 text: the
+	id: (7,)	 text: Tensorflow
+	id: (8,)	 text: project
+	id: (9,)	 text: ?
 
 ***POS TAGS*** 
 	Who -- PRON
@@ -989,14 +989,14 @@ id: (9,)	 text: ?
 QUESTION 28: Which folder is the certain file in? 
 
 ***TOKENS*** 
-id: (1,)	 text: Which
-id: (2,)	 text: folder
-id: (3,)	 text: is
-id: (4,)	 text: the
-id: (5,)	 text: certain
-id: (6,)	 text: file
-id: (7,)	 text: in
-id: (8,)	 text: ?
+	id: (1,)	 text: Which
+	id: (2,)	 text: folder
+	id: (3,)	 text: is
+	id: (4,)	 text: the
+	id: (5,)	 text: certain
+	id: (6,)	 text: file
+	id: (7,)	 text: in
+	id: (8,)	 text: ?
 
 ***POS TAGS*** 
 	Which -- DET
@@ -1023,19 +1023,19 @@ id: (8,)	 text: ?
 QUESTION 29: What is the size of .gitignore file in the Tensorflow project? 
 
 ***TOKENS*** 
-id: (1,)	 text: What
-id: (2,)	 text: is
-id: (3,)	 text: the
-id: (4,)	 text: size
-id: (5,)	 text: of
-id: (6,)	 text: .
-id: (7,)	 text: gitignore
-id: (8,)	 text: file
-id: (9,)	 text: in
-id: (10,)	 text: the
-id: (11,)	 text: Tensorflow
-id: (12,)	 text: project
-id: (13,)	 text: ?
+	id: (1,)	 text: What
+	id: (2,)	 text: is
+	id: (3,)	 text: the
+	id: (4,)	 text: size
+	id: (5,)	 text: of
+	id: (6,)	 text: .
+	id: (7,)	 text: gitignore
+	id: (8,)	 text: file
+	id: (9,)	 text: in
+	id: (10,)	 text: the
+	id: (11,)	 text: Tensorflow
+	id: (12,)	 text: project
+	id: (13,)	 text: ?
 
 ***POS TAGS*** 
 	What -- PRON
@@ -1073,16 +1073,16 @@ id: (13,)	 text: ?
 QUESTION 30: Does this project have the RickRoll.txt file? 
 
 ***TOKENS*** 
-id: (1,)	 text: Does
-id: (2,)	 text: this
-id: (3,)	 text: project
-id: (4,)	 text: have
-id: (5,)	 text: the
-id: (6,)	 text: RickRoll
-id: (7,)	 text: .
-id: (8,)	 text: txt
-id: (9,)	 text: file
-id: (10,)	 text: ?
+	id: (1,)	 text: Does
+	id: (2,)	 text: this
+	id: (3,)	 text: project
+	id: (4,)	 text: have
+	id: (5,)	 text: the
+	id: (6,)	 text: RickRoll
+	id: (7,)	 text: .
+	id: (8,)	 text: txt
+	id: (9,)	 text: file
+	id: (10,)	 text: ?
 
 ***POS TAGS*** 
 	Does -- AUX

@@ -18,7 +18,7 @@ with open('git_questions_nlp_analysis.txt', 'w', encoding='utf-8') as f:
         f.write("\n***TOKENS*** \n")
         for i, sentence in enumerate(doc.sentences):
             for token in sentence.tokens:
-                f.write(f"id: {token.id}\t text: {token.text}\n")
+                f.write(f"\tid: {token.id}\t text: {token.text}\n")
 
         f.write("\n***POS TAGS*** \n")
         for sentence in doc.sentences:
