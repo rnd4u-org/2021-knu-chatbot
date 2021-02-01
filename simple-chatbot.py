@@ -43,8 +43,18 @@ class ChatBot:
             while True:
                 name_or_id = input("Do you want to find a repo by:\n 1- Name,\n 2- ID,\n 3- Back to previous point\n-> ")
                 if name_or_id == '1':
-                    self.repo_name = self.__username+"/"+input("Enter repo name to show info: ")
-                    break
+                    which_repo = input("Do you want to see:\n 1- Your repo,\n 2- Someone else\'s repo,\n 3- Back to previous point\n-> ")
+                    if which_repo == '1':
+                        self.repo_name = self.__username+"/"+input("Enter repo name to show info: ")
+                        break
+                    elif which_repo == '2':
+                        self.someone_name = input("Enter username: ")
+                        self.repo_name = self.someone_name+"/"+input("Enter repo name to show info: ")
+                        break
+                    elif which_repo == '3':
+                        break
+                    else:
+                        print("Wrong answer. Try again.")
                 elif name_or_id == '2':
                     self.repo_name = int(input("Enter repo id to show info: "))
                     break
