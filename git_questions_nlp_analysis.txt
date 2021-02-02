@@ -1,0 +1,1113 @@
+QUESTION 1: How many files does this repository have? 
+
+***TOKENS*** 
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: files
+	id: (4,)	 text: does
+	id: (5,)	 text: this
+	id: (6,)	 text: repository
+	id: (7,)	 text: have
+	id: (8,)	 text: ?
+
+***POS TAGS*** 
+	How -- ADV
+	many -- ADJ
+	files -- NOUN
+	does -- AUX
+	this -- DET
+	repository -- NOUN
+	have -- VERB
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	How 2 advmod
+	many 3 amod
+	files 7 obj
+	does 7 aux
+	this 6 det
+	repository 7 nsubj
+	have 0 root
+	? 7 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 2: How many folders does this repository have? 
+
+***TOKENS*** 
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: folders
+	id: (4,)	 text: does
+	id: (5,)	 text: this
+	id: (6,)	 text: repository
+	id: (7,)	 text: have
+	id: (8,)	 text: ?
+
+***POS TAGS*** 
+	How -- ADV
+	many -- ADJ
+	folders -- NOUN
+	does -- AUX
+	this -- DET
+	repository -- NOUN
+	have -- VERB
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	How 2 advmod
+	many 3 amod
+	folders 7 obj
+	does 7 aux
+	this 6 det
+	repository 7 nsubj
+	have 0 root
+	? 7 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 3: How many contributors does the Tensorflow project have? 
+
+***TOKENS*** 
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: contributors
+	id: (4,)	 text: does
+	id: (5,)	 text: the
+	id: (6,)	 text: Tensorflow
+	id: (7,)	 text: project
+	id: (8,)	 text: have
+	id: (9,)	 text: ?
+
+***POS TAGS*** 
+	How -- ADV
+	many -- ADJ
+	contributors -- NOUN
+	does -- AUX
+	the -- DET
+	Tensorflow -- PROPN
+	project -- NOUN
+	have -- VERB
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	How 2 advmod
+	many 3 amod
+	contributors 8 obj
+	does 8 aux
+	the 7 det
+	Tensorflow 7 compound
+	project 8 nsubj
+	have 0 root
+	? 8 punct
+
+***NAMED ENTITIES*** 
+	Tensorflow ORG
+
+QUESTION 4: How many stars does the Tensorflow project have? 
+
+***TOKENS*** 
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: stars
+	id: (4,)	 text: does
+	id: (5,)	 text: the
+	id: (6,)	 text: Tensorflow
+	id: (7,)	 text: project
+	id: (8,)	 text: have
+	id: (9,)	 text: ?
+
+***POS TAGS*** 
+	How -- ADV
+	many -- ADJ
+	stars -- NOUN
+	does -- AUX
+	the -- DET
+	Tensorflow -- PROPN
+	project -- NOUN
+	have -- VERB
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	How 2 advmod
+	many 3 amod
+	stars 8 obj
+	does 8 aux
+	the 7 det
+	Tensorflow 7 compound
+	project 8 nsubj
+	have 0 root
+	? 8 punct
+
+***NAMED ENTITIES*** 
+	Tensorflow ORG
+
+QUESTION 5: How many branches does this repository have? 
+
+***TOKENS*** 
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: branches
+	id: (4,)	 text: does
+	id: (5,)	 text: this
+	id: (6,)	 text: repository
+	id: (7,)	 text: have
+	id: (8,)	 text: ?
+
+***POS TAGS*** 
+	How -- ADV
+	many -- ADJ
+	branches -- NOUN
+	does -- AUX
+	this -- DET
+	repository -- NOUN
+	have -- VERB
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	How 2 advmod
+	many 3 amod
+	branches 7 obj
+	does 7 aux
+	this 6 det
+	repository 7 nsubj
+	have 0 root
+	? 7 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 6: How many branches which have more than 10 contributions does this repository have? 
+
+***TOKENS*** 
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: branches
+	id: (4,)	 text: which
+	id: (5,)	 text: have
+	id: (6,)	 text: more
+	id: (7,)	 text: than
+	id: (8,)	 text: 10
+	id: (9,)	 text: contributions
+	id: (10,)	 text: does
+	id: (11,)	 text: this
+	id: (12,)	 text: repository
+	id: (13,)	 text: have
+	id: (14,)	 text: ?
+
+***POS TAGS*** 
+	How -- ADV
+	many -- ADJ
+	branches -- NOUN
+	which -- PRON
+	have -- VERB
+	more -- ADJ
+	than -- ADP
+	10 -- NUM
+	contributions -- NOUN
+	does -- AUX
+	this -- DET
+	repository -- NOUN
+	have -- VERB
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	How 2 advmod
+	many 3 amod
+	branches 13 obj
+	which 5 nsubj
+	have 3 acl:relcl
+	more 8 advmod
+	than 6 fixed
+	10 9 nummod
+	contributions 5 obj
+	does 13 aux
+	this 12 det
+	repository 13 nsubj
+	have 0 root
+	? 13 punct
+
+***NAMED ENTITIES*** 
+	more than 10 CARDINAL
+
+QUESTION 7: How many tags does the Tensorflow project have? 
+
+***TOKENS*** 
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: tags
+	id: (4,)	 text: does
+	id: (5,)	 text: the
+	id: (6,)	 text: Tensorflow
+	id: (7,)	 text: project
+	id: (8,)	 text: have
+	id: (9,)	 text: ?
+
+***POS TAGS*** 
+	How -- ADV
+	many -- ADJ
+	tags -- NOUN
+	does -- AUX
+	the -- DET
+	Tensorflow -- PROPN
+	project -- NOUN
+	have -- VERB
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	How 2 advmod
+	many 3 amod
+	tags 8 obj
+	does 8 aux
+	the 7 det
+	Tensorflow 7 compound
+	project 8 nsubj
+	have 0 root
+	? 8 punct
+
+***NAMED ENTITIES*** 
+	Tensorflow ORG
+
+QUESTION 8: How many contributions does this repository have? 
+
+***TOKENS*** 
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: contributions
+	id: (4,)	 text: does
+	id: (5,)	 text: this
+	id: (6,)	 text: repository
+	id: (7,)	 text: have
+	id: (8,)	 text: ?
+
+***POS TAGS*** 
+	How -- ADV
+	many -- ADJ
+	contributions -- NOUN
+	does -- AUX
+	this -- DET
+	repository -- NOUN
+	have -- VERB
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	How 2 advmod
+	many 3 amod
+	contributions 7 obj
+	does 7 aux
+	this 6 det
+	repository 7 nsubj
+	have 0 root
+	? 7 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 9: How many pull requests does this repository have? 
+
+***TOKENS*** 
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: pull
+	id: (4,)	 text: requests
+	id: (5,)	 text: does
+	id: (6,)	 text: this
+	id: (7,)	 text: repository
+	id: (8,)	 text: have
+	id: (9,)	 text: ?
+
+***POS TAGS*** 
+	How -- ADV
+	many -- ADJ
+	pull -- NOUN
+	requests -- NOUN
+	does -- AUX
+	this -- DET
+	repository -- NOUN
+	have -- VERB
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	How 2 advmod
+	many 4 amod
+	pull 4 compound
+	requests 8 obj
+	does 8 aux
+	this 7 det
+	repository 8 nsubj
+	have 0 root
+	? 8 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 10: How many developers are watching this project? 
+
+***TOKENS*** 
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: developers
+	id: (4,)	 text: are
+	id: (5,)	 text: watching
+	id: (6,)	 text: this
+	id: (7,)	 text: project
+	id: (8,)	 text: ?
+
+***POS TAGS*** 
+	How -- ADV
+	many -- ADJ
+	developers -- NOUN
+	are -- AUX
+	watching -- VERB
+	this -- DET
+	project -- NOUN
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	How 2 advmod
+	many 3 amod
+	developers 5 nsubj
+	are 5 aux
+	watching 0 root
+	this 7 det
+	project 5 obj
+	? 5 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 11: How many subfolders does this folder have? 
+
+***TOKENS*** 
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: subfolders
+	id: (4,)	 text: does
+	id: (5,)	 text: this
+	id: (6,)	 text: folder
+	id: (7,)	 text: have
+	id: (8,)	 text: ?
+
+***POS TAGS*** 
+	How -- ADV
+	many -- ADJ
+	subfolders -- NOUN
+	does -- AUX
+	this -- DET
+	folder -- NOUN
+	have -- VERB
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	How 2 advmod
+	many 3 amod
+	subfolders 7 obj
+	does 7 aux
+	this 6 det
+	folder 7 nsubj
+	have 0 root
+	? 7 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 12: How many lines of text does the certain file have? 
+
+***TOKENS*** 
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: lines
+	id: (4,)	 text: of
+	id: (5,)	 text: text
+	id: (6,)	 text: does
+	id: (7,)	 text: the
+	id: (8,)	 text: certain
+	id: (9,)	 text: file
+	id: (10,)	 text: have
+	id: (11,)	 text: ?
+
+***POS TAGS*** 
+	How -- ADV
+	many -- ADJ
+	lines -- NOUN
+	of -- ADP
+	text -- NOUN
+	does -- AUX
+	the -- DET
+	certain -- ADJ
+	file -- NOUN
+	have -- VERB
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	How 2 advmod
+	many 3 amod
+	lines 10 obj
+	of 5 case
+	text 3 nmod
+	does 10 aux
+	the 9 det
+	certain 9 amod
+	file 10 nsubj
+	have 0 root
+	? 10 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 13: How many people are using the Tensorflow project? 
+
+***TOKENS*** 
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: people
+	id: (4,)	 text: are
+	id: (5,)	 text: using
+	id: (6,)	 text: the
+	id: (7,)	 text: Tensorflow
+	id: (8,)	 text: project
+	id: (9,)	 text: ?
+
+***POS TAGS*** 
+	How -- ADV
+	many -- ADJ
+	people -- NOUN
+	are -- AUX
+	using -- VERB
+	the -- DET
+	Tensorflow -- PROPN
+	project -- NOUN
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	How 2 advmod
+	many 3 amod
+	people 5 nsubj
+	are 5 aux
+	using 0 root
+	the 8 det
+	Tensorflow 8 compound
+	project 5 obj
+	? 5 punct
+
+***NAMED ENTITIES*** 
+	Tensorflow ORG
+
+QUESTION 14: How many forks does the certain project have? 
+
+***TOKENS*** 
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: forks
+	id: (4,)	 text: does
+	id: (5,)	 text: the
+	id: (6,)	 text: certain
+	id: (7,)	 text: project
+	id: (8,)	 text: have
+	id: (9,)	 text: ?
+
+***POS TAGS*** 
+	How -- ADV
+	many -- ADJ
+	forks -- NOUN
+	does -- AUX
+	the -- DET
+	certain -- ADJ
+	project -- NOUN
+	have -- VERB
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	How 2 advmod
+	many 3 amod
+	forks 8 obj
+	does 8 aux
+	the 7 det
+	certain 7 amod
+	project 8 nsubj
+	have 0 root
+	? 8 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 15: How many .py files does the certain project have? 
+
+***TOKENS*** 
+	id: (1,)	 text: How
+	id: (2,)	 text: many
+	id: (3,)	 text: .
+	id: (4,)	 text: py
+	id: (5,)	 text: files
+	id: (6,)	 text: does
+	id: (7,)	 text: the
+	id: (8,)	 text: certain
+	id: (9,)	 text: project
+	id: (10,)	 text: have
+	id: (11,)	 text: ?
+
+***POS TAGS*** 
+	How -- ADV
+	many -- ADJ
+	. -- PUNCT
+	py -- NOUN
+	files -- NOUN
+	does -- AUX
+	the -- DET
+	certain -- ADJ
+	project -- NOUN
+	have -- VERB
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	How 2 advmod
+	many 5 amod
+	. 10 punct
+	py 5 compound
+	files 10 obj
+	does 10 aux
+	the 9 det
+	certain 9 amod
+	project 10 nsubj
+	have 0 root
+	? 10 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 16: When was the last contribution made on the Tensorflow project? 
+
+***TOKENS*** 
+	id: (1,)	 text: When
+	id: (2,)	 text: was
+	id: (3,)	 text: the
+	id: (4,)	 text: last
+	id: (5,)	 text: contribution
+	id: (6,)	 text: made
+	id: (7,)	 text: on
+	id: (8,)	 text: the
+	id: (9,)	 text: Tensorflow
+	id: (10,)	 text: project
+	id: (11,)	 text: ?
+
+***POS TAGS*** 
+	When -- ADV
+	was -- AUX
+	the -- DET
+	last -- ADJ
+	contribution -- NOUN
+	made -- VERB
+	on -- ADP
+	the -- DET
+	Tensorflow -- PROPN
+	project -- NOUN
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	When 0 root
+	was 1 cop
+	the 5 det
+	last 5 amod
+	contribution 1 nsubj
+	made 5 acl
+	on 10 case
+	the 10 det
+	Tensorflow 10 compound
+	project 6 obl
+	? 1 punct
+
+***NAMED ENTITIES*** 
+	Tensorflow ORG
+
+QUESTION 17: When was the last branch created? 
+
+***TOKENS*** 
+	id: (1,)	 text: When
+	id: (2,)	 text: was
+	id: (3,)	 text: the
+	id: (4,)	 text: last
+	id: (5,)	 text: branch
+	id: (6,)	 text: created
+	id: (7,)	 text: ?
+
+***POS TAGS*** 
+	When -- ADV
+	was -- AUX
+	the -- DET
+	last -- ADJ
+	branch -- NOUN
+	created -- VERB
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	When 0 root
+	was 1 cop
+	the 5 det
+	last 5 amod
+	branch 1 nsubj
+	created 1 advcl
+	? 1 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 18: When was the last pull request made? 
+
+***TOKENS*** 
+	id: (1,)	 text: When
+	id: (2,)	 text: was
+	id: (3,)	 text: the
+	id: (4,)	 text: last
+	id: (5,)	 text: pull
+	id: (6,)	 text: request
+	id: (7,)	 text: made
+	id: (8,)	 text: ?
+
+***POS TAGS*** 
+	When -- ADV
+	was -- AUX
+	the -- DET
+	last -- ADJ
+	pull -- NOUN
+	request -- NOUN
+	made -- VERB
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	When 0 root
+	was 1 cop
+	the 6 det
+	last 6 amod
+	pull 6 compound
+	request 1 nsubj
+	made 6 acl
+	? 1 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 19: When was the last file added? 
+
+***TOKENS*** 
+	id: (1,)	 text: When
+	id: (2,)	 text: was
+	id: (3,)	 text: the
+	id: (4,)	 text: last
+	id: (5,)	 text: file
+	id: (6,)	 text: added
+	id: (7,)	 text: ?
+
+***POS TAGS*** 
+	When -- ADV
+	was -- AUX
+	the -- DET
+	last -- ADJ
+	file -- NOUN
+	added -- VERB
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	When 0 root
+	was 1 cop
+	the 5 det
+	last 5 amod
+	file 1 nsubj
+	added 5 acl
+	? 1 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 20: When was the last contributor added? 
+
+***TOKENS*** 
+	id: (1,)	 text: When
+	id: (2,)	 text: was
+	id: (3,)	 text: the
+	id: (4,)	 text: last
+	id: (5,)	 text: contributor
+	id: (6,)	 text: added
+	id: (7,)	 text: ?
+
+***POS TAGS*** 
+	When -- ADV
+	was -- AUX
+	the -- DET
+	last -- ADJ
+	contributor -- NOUN
+	added -- VERB
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	When 0 root
+	was 1 cop
+	the 5 det
+	last 5 amod
+	contributor 1 nsubj
+	added 1 advcl
+	? 1 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 21: When was the last .jpg file added? 
+
+***TOKENS*** 
+	id: (1,)	 text: When
+	id: (2,)	 text: was
+	id: (3,)	 text: the
+	id: (4,)	 text: last
+	id: (5,)	 text: .
+	id: (6,)	 text: jpg
+	id: (7,)	 text: file
+	id: (8,)	 text: added
+	id: (9,)	 text: ?
+
+***POS TAGS*** 
+	When -- ADV
+	was -- AUX
+	the -- DET
+	last -- ADJ
+	. -- PUNCT
+	jpg -- NOUN
+	file -- NOUN
+	added -- VERB
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	When 0 root
+	was 1 cop
+	the 7 det
+	last 7 amod
+	. 1 punct
+	jpg 7 compound
+	file 1 nsubj
+	added 1 appos
+	? 1 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 22: When was the last README file changes made? 
+
+***TOKENS*** 
+	id: (1,)	 text: When
+	id: (2,)	 text: was
+	id: (3,)	 text: the
+	id: (4,)	 text: last
+	id: (5,)	 text: README
+	id: (6,)	 text: file
+	id: (7,)	 text: changes
+	id: (8,)	 text: made
+	id: (9,)	 text: ?
+
+***POS TAGS*** 
+	When -- ADV
+	was -- AUX
+	the -- DET
+	last -- ADJ
+	README -- NOUN
+	file -- NOUN
+	changes -- NOUN
+	made -- VERB
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	When 0 root
+	was 1 cop
+	the 7 det
+	last 7 amod
+	README 7 compound
+	file 7 compound
+	changes 1 nsubj
+	made 7 acl
+	? 1 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 23: When was the last .png file uploaded on the master branch? 
+
+***TOKENS*** 
+	id: (1,)	 text: When
+	id: (2,)	 text: was
+	id: (3,)	 text: the
+	id: (4,)	 text: last
+	id: (5,)	 text: .
+	id: (6,)	 text: png
+	id: (7,)	 text: file
+	id: (8,)	 text: uploaded
+	id: (9,)	 text: on
+	id: (10,)	 text: the
+	id: (11,)	 text: master
+	id: (12,)	 text: branch
+	id: (13,)	 text: ?
+
+***POS TAGS*** 
+	When -- ADV
+	was -- AUX
+	the -- DET
+	last -- ADJ
+	. -- PUNCT
+	png -- NOUN
+	file -- NOUN
+	uploaded -- VERB
+	on -- ADP
+	the -- DET
+	master -- NOUN
+	branch -- NOUN
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	When 0 root
+	was 1 cop
+	the 7 det
+	last 7 amod
+	. 7 punct
+	png 7 compound
+	file 1 nsubj
+	uploaded 7 acl
+	on 12 case
+	the 12 det
+	master 12 compound
+	branch 8 obl
+	? 1 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 24: Who made the most commits? 
+
+***TOKENS*** 
+	id: (1,)	 text: Who
+	id: (2,)	 text: made
+	id: (3,)	 text: the
+	id: (4,)	 text: most
+	id: (5,)	 text: commits
+	id: (6,)	 text: ?
+
+***POS TAGS*** 
+	Who -- PRON
+	made -- VERB
+	the -- DET
+	most -- ADJ
+	commits -- NOUN
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	Who 2 nsubj
+	made 0 root
+	the 5 det
+	most 5 amod
+	commits 2 obj
+	? 2 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 25: Who made the last pull request? 
+
+***TOKENS*** 
+	id: (1,)	 text: Who
+	id: (2,)	 text: made
+	id: (3,)	 text: the
+	id: (4,)	 text: last
+	id: (5,)	 text: pull
+	id: (6,)	 text: request
+	id: (7,)	 text: ?
+
+***POS TAGS*** 
+	Who -- PRON
+	made -- VERB
+	the -- DET
+	last -- ADJ
+	pull -- NOUN
+	request -- NOUN
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	Who 2 nsubj
+	made 0 root
+	the 6 det
+	last 6 amod
+	pull 6 compound
+	request 2 obj
+	? 2 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 26: Who uploaded the last file? 
+
+***TOKENS*** 
+	id: (1,)	 text: Who
+	id: (2,)	 text: uploaded
+	id: (3,)	 text: the
+	id: (4,)	 text: last
+	id: (5,)	 text: file
+	id: (6,)	 text: ?
+
+***POS TAGS*** 
+	Who -- PRON
+	uploaded -- VERB
+	the -- DET
+	last -- ADJ
+	file -- NOUN
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	Who 2 nsubj
+	uploaded 0 root
+	the 5 det
+	last 5 amod
+	file 2 obj
+	? 2 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 27: Who is the creator of the Tensorflow project? 
+
+***TOKENS*** 
+	id: (1,)	 text: Who
+	id: (2,)	 text: is
+	id: (3,)	 text: the
+	id: (4,)	 text: creator
+	id: (5,)	 text: of
+	id: (6,)	 text: the
+	id: (7,)	 text: Tensorflow
+	id: (8,)	 text: project
+	id: (9,)	 text: ?
+
+***POS TAGS*** 
+	Who -- PRON
+	is -- AUX
+	the -- DET
+	creator -- NOUN
+	of -- ADP
+	the -- DET
+	Tensorflow -- PROPN
+	project -- NOUN
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	Who 0 root
+	is 1 cop
+	the 4 det
+	creator 1 nsubj
+	of 8 case
+	the 8 det
+	Tensorflow 8 compound
+	project 4 nmod
+	? 1 punct
+
+***NAMED ENTITIES*** 
+	Tensorflow ORG
+
+QUESTION 28: Which folder is the certain file in? 
+
+***TOKENS*** 
+	id: (1,)	 text: Which
+	id: (2,)	 text: folder
+	id: (3,)	 text: is
+	id: (4,)	 text: the
+	id: (5,)	 text: certain
+	id: (6,)	 text: file
+	id: (7,)	 text: in
+	id: (8,)	 text: ?
+
+***POS TAGS*** 
+	Which -- DET
+	folder -- NOUN
+	is -- AUX
+	the -- DET
+	certain -- ADJ
+	file -- NOUN
+	in -- ADP
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	Which 2 det
+	folder 6 nsubj
+	is 6 cop
+	the 6 det
+	certain 6 amod
+	file 0 root
+	in 6 nmod
+	? 6 punct
+
+***NAMED ENTITIES*** 
+
+QUESTION 29: What is the size of .gitignore file in the Tensorflow project? 
+
+***TOKENS*** 
+	id: (1,)	 text: What
+	id: (2,)	 text: is
+	id: (3,)	 text: the
+	id: (4,)	 text: size
+	id: (5,)	 text: of
+	id: (6,)	 text: .
+	id: (7,)	 text: gitignore
+	id: (8,)	 text: file
+	id: (9,)	 text: in
+	id: (10,)	 text: the
+	id: (11,)	 text: Tensorflow
+	id: (12,)	 text: project
+	id: (13,)	 text: ?
+
+***POS TAGS*** 
+	What -- PRON
+	is -- AUX
+	the -- DET
+	size -- NOUN
+	of -- ADP
+	. -- PUNCT
+	gitignore -- NOUN
+	file -- NOUN
+	in -- ADP
+	the -- DET
+	Tensorflow -- PROPN
+	project -- NOUN
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	What 0 root
+	is 1 cop
+	the 4 det
+	size 1 nsubj
+	of 8 case
+	. 8 punct
+	gitignore 8 compound
+	file 4 nmod
+	in 12 case
+	the 12 det
+	Tensorflow 12 compound
+	project 8 nmod
+	? 1 punct
+
+***NAMED ENTITIES*** 
+	Tensorflow ORG
+
+QUESTION 30: Does this project have the RickRoll.txt file? 
+
+***TOKENS*** 
+	id: (1,)	 text: Does
+	id: (2,)	 text: this
+	id: (3,)	 text: project
+	id: (4,)	 text: have
+	id: (5,)	 text: the
+	id: (6,)	 text: RickRoll
+	id: (7,)	 text: .
+	id: (8,)	 text: txt
+	id: (9,)	 text: file
+	id: (10,)	 text: ?
+
+***POS TAGS*** 
+	Does -- AUX
+	this -- DET
+	project -- NOUN
+	have -- VERB
+	the -- DET
+	RickRoll -- PROPN
+	. -- PUNCT
+	txt -- NOUN
+	file -- NOUN
+	? -- PUNCT
+
+***DEPENDENCY TREE*** 
+	Does 4 aux
+	this 3 det
+	project 4 nsubj
+	have 0 root
+	the 9 det
+	RickRoll 9 compound
+	. 9 punct
+	txt 9 compound
+	file 4 obj
+	? 4 punct
+
+***NAMED ENTITIES*** 
+	RickRoll PERSON
+
