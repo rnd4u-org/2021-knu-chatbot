@@ -1,0 +1,70 @@
+QUESTION 1
+What license does the <http://resources.samsung.com/projects/.net> project have?
+
+SPARQL QUERY 1
+LICENSE:
+MIT
+
+QUESTION 2
+Which repositories does the <http://resources.samsung.com/projects/.net> project have?
+
+SPARQL QUERY 2
+REPOSITORIES:
+http://resources.samsung.com/repositories/dotnet/runtime
+
+QUESTION 3
+Which license and description does the <http://resources.samsung.com/projects/.net> project have?
+
+SPARQL QUERY 3
+LICENSE:
+MIT
+DESCRIPTION:
+
+
+QUESTION 4
+Who contributed to the <http://resources.samsung.com/repositories/boostorg/boost> repository?
+
+SPARQL QUERY 4
+CONTRIBUTORS:
+http://resources.samsung.com/contributors/ericniebler
+http://resources.samsung.com/contributors/vprus
+http://resources.samsung.com/contributors/dabrahams
+http://resources.samsung.com/contributors/boost-commitbot
+http://resources.samsung.com/contributors/jzmaddock
+http://resources.samsung.com/contributors/hkaiser
+http://resources.samsung.com/contributors/jsiek
+http://resources.samsung.com/contributors/danieljames
+http://resources.samsung.com/contributors/beman
+http://resources.samsung.com/contributors/douggregor
+http://resources.samsung.com/contributors/djowel
+http://resources.samsung.com/contributors/robertramey
+http://resources.samsung.com/contributors/pdimov
+http://resources.samsung.com/contributors/jensmaurer
+http://resources.samsung.com/contributors/rogeeff
+http://resources.samsung.com/contributors/jeffgarland
+http://resources.samsung.com/contributors/turkanis
+http://resources.samsung.com/contributors/chriskohlhoff
+http://resources.samsung.com/contributors/jewillco
+http://resources.samsung.com/contributors/joaquintides
+http://resources.samsung.com/contributors/grafikrobot
+
+QUESTION 5
+Which homepage does the <http://resources.samsung.com/projects/.net> project have?
+
+SPARQL QUERY 5
+HOMEPAGE:
+https://docs.microsoft.com/dotnet/core/
+
+QUESTION 6
+What projects did the <http://resources.samsung.com/contributors/1wheel> contributor contribute to?
+
+SPARQL QUERY 6
+PROJECTS:
+d3/d3-hexbin:1
+tensorflow/tfjs-models:1
+stackgl/webgl-workshop:1
+d3/d3-sankey:1
+calocan/rescape-geospatial-sankey:1
+joshnabbott/d3-sankey:1
+abritinthebay/docco-es:1
+lisfan/docco:1
