@@ -1,0 +1,969 @@
+QUESTION 1:
+When was this repository created?
+TOKENS:
+When
+was
+this
+repository
+created
+?
+
+POS TAGS:
+ADV
+AUX
+DET
+NOUN
+VERB
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: When		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 2	WORD: was		HEAD ID: 1	HEAD: When	DEPREL: cop
+ID: 3	WORD: this		HEAD ID: 4	HEAD: repository	DEPREL: det
+ID: 4	WORD: repository		HEAD ID: 5	HEAD: created	DEPREL: nsubj
+ID: 5	WORD: created		HEAD ID: 1	HEAD: When	DEPREL: advcl
+ID: 6	WORD: ?		HEAD ID: 1	HEAD: When	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 2:
+How many watchers does this repository have?
+TOKENS:
+How
+many
+watchers
+does
+this
+repository
+have
+?
+
+POS TAGS:
+ADV
+ADJ
+NOUN
+AUX
+DET
+NOUN
+VERB
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: How		HEAD ID: 2	HEAD: many	DEPREL: advmod
+ID: 2	WORD: many		HEAD ID: 3	HEAD: watchers	DEPREL: amod
+ID: 3	WORD: watchers		HEAD ID: 7	HEAD: have	DEPREL: obj
+ID: 4	WORD: does		HEAD ID: 7	HEAD: have	DEPREL: aux
+ID: 5	WORD: this		HEAD ID: 6	HEAD: repository	DEPREL: det
+ID: 6	WORD: repository		HEAD ID: 7	HEAD: have	DEPREL: nsubj
+ID: 7	WORD: have		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 8	WORD: ?		HEAD ID: 7	HEAD: have	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 3:
+How many forks does this repository have?
+TOKENS:
+How
+many
+forks
+does
+this
+repository
+have
+?
+
+POS TAGS:
+ADV
+ADJ
+NOUN
+AUX
+DET
+NOUN
+VERB
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: How		HEAD ID: 2	HEAD: many	DEPREL: advmod
+ID: 2	WORD: many		HEAD ID: 3	HEAD: forks	DEPREL: amod
+ID: 3	WORD: forks		HEAD ID: 7	HEAD: have	DEPREL: obj
+ID: 4	WORD: does		HEAD ID: 7	HEAD: have	DEPREL: aux
+ID: 5	WORD: this		HEAD ID: 6	HEAD: repository	DEPREL: det
+ID: 6	WORD: repository		HEAD ID: 7	HEAD: have	DEPREL: nsubj
+ID: 7	WORD: have		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 8	WORD: ?		HEAD ID: 7	HEAD: have	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 4:
+Does this repository have issues?
+TOKENS:
+Does
+this
+repository
+have
+issues
+?
+
+POS TAGS:
+AUX
+DET
+NOUN
+VERB
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: Does		HEAD ID: 4	HEAD: have	DEPREL: aux
+ID: 2	WORD: this		HEAD ID: 3	HEAD: repository	DEPREL: det
+ID: 3	WORD: repository		HEAD ID: 4	HEAD: have	DEPREL: nsubj
+ID: 4	WORD: have		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 5	WORD: issues		HEAD ID: 4	HEAD: have	DEPREL: obj
+ID: 6	WORD: ?		HEAD ID: 4	HEAD: have	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 5:
+What is the language of this repository?
+TOKENS:
+What
+is
+the
+language
+of
+this
+repository
+?
+
+POS TAGS:
+PRON
+AUX
+DET
+NOUN
+ADP
+DET
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: What		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 2	WORD: is		HEAD ID: 1	HEAD: What	DEPREL: cop
+ID: 3	WORD: the		HEAD ID: 4	HEAD: language	DEPREL: det
+ID: 4	WORD: language		HEAD ID: 1	HEAD: What	DEPREL: nsubj
+ID: 5	WORD: of		HEAD ID: 7	HEAD: repository	DEPREL: case
+ID: 6	WORD: this		HEAD ID: 7	HEAD: repository	DEPREL: det
+ID: 7	WORD: repository		HEAD ID: 4	HEAD: language	DEPREL: nmod
+ID: 8	WORD: ?		HEAD ID: 1	HEAD: What	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 6:
+Is this user hireable?
+TOKENS:
+Is
+this
+user
+hireable
+?
+
+POS TAGS:
+AUX
+DET
+NOUN
+ADJ
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: Is		HEAD ID: 4	HEAD: hireable	DEPREL: cop
+ID: 2	WORD: this		HEAD ID: 3	HEAD: user	DEPREL: det
+ID: 3	WORD: user		HEAD ID: 4	HEAD: hireable	DEPREL: nsubj
+ID: 4	WORD: hireable		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 5	WORD: ?		HEAD ID: 4	HEAD: hireable	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 7:
+What is the location of this user?
+TOKENS:
+What
+is
+the
+location
+of
+this
+user
+?
+
+POS TAGS:
+PRON
+AUX
+DET
+NOUN
+ADP
+DET
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: What		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 2	WORD: is		HEAD ID: 1	HEAD: What	DEPREL: cop
+ID: 3	WORD: the		HEAD ID: 4	HEAD: location	DEPREL: det
+ID: 4	WORD: location		HEAD ID: 1	HEAD: What	DEPREL: nsubj
+ID: 5	WORD: of		HEAD ID: 7	HEAD: user	DEPREL: case
+ID: 6	WORD: this		HEAD ID: 7	HEAD: user	DEPREL: det
+ID: 7	WORD: user		HEAD ID: 4	HEAD: location	DEPREL: nmod
+ID: 8	WORD: ?		HEAD ID: 1	HEAD: What	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 8:
+When was the last update of this user?
+TOKENS:
+When
+was
+the
+last
+update
+of
+this
+user
+?
+
+POS TAGS:
+ADV
+AUX
+DET
+ADJ
+NOUN
+ADP
+DET
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: When		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 2	WORD: was		HEAD ID: 1	HEAD: When	DEPREL: cop
+ID: 3	WORD: the		HEAD ID: 5	HEAD: update	DEPREL: det
+ID: 4	WORD: last		HEAD ID: 5	HEAD: update	DEPREL: amod
+ID: 5	WORD: update		HEAD ID: 1	HEAD: When	DEPREL: nsubj
+ID: 6	WORD: of		HEAD ID: 8	HEAD: user	DEPREL: case
+ID: 7	WORD: this		HEAD ID: 8	HEAD: user	DEPREL: det
+ID: 8	WORD: user		HEAD ID: 5	HEAD: update	DEPREL: nmod
+ID: 9	WORD: ?		HEAD ID: 1	HEAD: When	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 9:
+What is the master branch of this repository?
+TOKENS:
+What
+is
+the
+master
+branch
+of
+this
+repository
+?
+
+POS TAGS:
+PRON
+AUX
+DET
+NOUN
+NOUN
+ADP
+DET
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: What		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 2	WORD: is		HEAD ID: 1	HEAD: What	DEPREL: cop
+ID: 3	WORD: the		HEAD ID: 5	HEAD: branch	DEPREL: det
+ID: 4	WORD: master		HEAD ID: 5	HEAD: branch	DEPREL: compound
+ID: 5	WORD: branch		HEAD ID: 1	HEAD: What	DEPREL: nsubj
+ID: 6	WORD: of		HEAD ID: 8	HEAD: repository	DEPREL: case
+ID: 7	WORD: this		HEAD ID: 8	HEAD: repository	DEPREL: det
+ID: 8	WORD: repository		HEAD ID: 5	HEAD: branch	DEPREL: nmod
+ID: 9	WORD: ?		HEAD ID: 1	HEAD: What	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 10:
+Is this repository private?
+TOKENS:
+Is
+this
+repository
+private
+?
+
+POS TAGS:
+AUX
+DET
+NOUN
+ADJ
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: Is		HEAD ID: 4	HEAD: private	DEPREL: cop
+ID: 2	WORD: this		HEAD ID: 3	HEAD: repository	DEPREL: det
+ID: 3	WORD: repository		HEAD ID: 4	HEAD: private	DEPREL: nsubj
+ID: 4	WORD: private		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 5	WORD: ?		HEAD ID: 4	HEAD: private	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 11:
+When was this repository pushed at?
+TOKENS:
+When
+was
+this
+repository
+pushed
+at
+?
+
+POS TAGS:
+ADV
+AUX
+DET
+NOUN
+VERB
+ADP
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: When		HEAD ID: 5	HEAD: pushed	DEPREL: advmod
+ID: 2	WORD: was		HEAD ID: 5	HEAD: pushed	DEPREL: aux:pass
+ID: 3	WORD: this		HEAD ID: 4	HEAD: repository	DEPREL: det
+ID: 4	WORD: repository		HEAD ID: 5	HEAD: pushed	DEPREL: nsubj:pass
+ID: 5	WORD: pushed		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 6	WORD: at		HEAD ID: 1	HEAD: When	DEPREL: case
+ID: 7	WORD: ?		HEAD ID: 5	HEAD: pushed	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 12:
+What is this repository's id?
+TOKENS:
+What
+is
+this
+repository
+'s
+id
+?
+
+POS TAGS:
+PRON
+AUX
+DET
+NOUN
+PART
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: What		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 2	WORD: is		HEAD ID: 1	HEAD: What	DEPREL: cop
+ID: 3	WORD: this		HEAD ID: 4	HEAD: repository	DEPREL: det
+ID: 4	WORD: repository		HEAD ID: 6	HEAD: id	DEPREL: nmod:poss
+ID: 5	WORD: 's		HEAD ID: 4	HEAD: repository	DEPREL: case
+ID: 6	WORD: id		HEAD ID: 1	HEAD: What	DEPREL: nsubj
+ID: 7	WORD: ?		HEAD ID: 1	HEAD: What	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 13:
+What is this user's email?
+TOKENS:
+What
+is
+this
+user
+'s
+email
+?
+
+POS TAGS:
+PRON
+AUX
+DET
+NOUN
+PART
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: What		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 2	WORD: is		HEAD ID: 1	HEAD: What	DEPREL: cop
+ID: 3	WORD: this		HEAD ID: 4	HEAD: user	DEPREL: det
+ID: 4	WORD: user		HEAD ID: 6	HEAD: email	DEPREL: nmod:poss
+ID: 5	WORD: 's		HEAD ID: 4	HEAD: user	DEPREL: case
+ID: 6	WORD: email		HEAD ID: 1	HEAD: What	DEPREL: nsubj
+ID: 7	WORD: ?		HEAD ID: 1	HEAD: What	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 14:
+What is the homepage of this repository?
+TOKENS:
+What
+is
+the
+homepage
+of
+this
+repository
+?
+
+POS TAGS:
+PRON
+AUX
+DET
+NOUN
+ADP
+DET
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: What		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 2	WORD: is		HEAD ID: 1	HEAD: What	DEPREL: cop
+ID: 3	WORD: the		HEAD ID: 4	HEAD: homepage	DEPREL: det
+ID: 4	WORD: homepage		HEAD ID: 1	HEAD: What	DEPREL: nsubj
+ID: 5	WORD: of		HEAD ID: 7	HEAD: repository	DEPREL: case
+ID: 6	WORD: this		HEAD ID: 7	HEAD: repository	DEPREL: det
+ID: 7	WORD: repository		HEAD ID: 4	HEAD: homepage	DEPREL: nmod
+ID: 8	WORD: ?		HEAD ID: 1	HEAD: What	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 15:
+How many people is this user following?
+TOKENS:
+How
+many
+people
+is
+this
+user
+following
+?
+
+POS TAGS:
+ADV
+ADJ
+NOUN
+AUX
+DET
+NOUN
+VERB
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: How		HEAD ID: 2	HEAD: many	DEPREL: advmod
+ID: 2	WORD: many		HEAD ID: 3	HEAD: people	DEPREL: amod
+ID: 3	WORD: people		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 4	WORD: is		HEAD ID: 3	HEAD: people	DEPREL: cop
+ID: 5	WORD: this		HEAD ID: 6	HEAD: user	DEPREL: det
+ID: 6	WORD: user		HEAD ID: 3	HEAD: people	DEPREL: nsubj
+ID: 7	WORD: following		HEAD ID: 6	HEAD: user	DEPREL: amod
+ID: 8	WORD: ?		HEAD ID: 3	HEAD: people	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 16:
+What is this user's company?
+TOKENS:
+What
+is
+this
+user
+'s
+company
+?
+
+POS TAGS:
+PRON
+AUX
+DET
+NOUN
+PART
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: What		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 2	WORD: is		HEAD ID: 1	HEAD: What	DEPREL: cop
+ID: 3	WORD: this		HEAD ID: 4	HEAD: user	DEPREL: det
+ID: 4	WORD: user		HEAD ID: 6	HEAD: company	DEPREL: nmod:poss
+ID: 5	WORD: 's		HEAD ID: 4	HEAD: user	DEPREL: case
+ID: 6	WORD: company		HEAD ID: 1	HEAD: What	DEPREL: nsubj
+ID: 7	WORD: ?		HEAD ID: 1	HEAD: What	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 17:
+What is this repository's contributors url?
+TOKENS:
+What
+is
+this
+repository
+'s
+contributors
+url
+?
+
+POS TAGS:
+PRON
+AUX
+DET
+NOUN
+PART
+NOUN
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: What		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 2	WORD: is		HEAD ID: 1	HEAD: What	DEPREL: cop
+ID: 3	WORD: this		HEAD ID: 4	HEAD: repository	DEPREL: det
+ID: 4	WORD: repository		HEAD ID: 7	HEAD: url	DEPREL: nmod:poss
+ID: 5	WORD: 's		HEAD ID: 4	HEAD: repository	DEPREL: case
+ID: 6	WORD: contributors		HEAD ID: 7	HEAD: url	DEPREL: compound
+ID: 7	WORD: url		HEAD ID: 1	HEAD: What	DEPREL: nsubj
+ID: 8	WORD: ?		HEAD ID: 1	HEAD: What	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 18:
+What is this user's bio?
+TOKENS:
+What
+is
+this
+user
+'s
+bio
+?
+
+POS TAGS:
+PRON
+AUX
+DET
+NOUN
+PART
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: What		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 2	WORD: is		HEAD ID: 1	HEAD: What	DEPREL: cop
+ID: 3	WORD: this		HEAD ID: 4	HEAD: user	DEPREL: det
+ID: 4	WORD: user		HEAD ID: 6	HEAD: bio	DEPREL: nmod:poss
+ID: 5	WORD: 's		HEAD ID: 4	HEAD: user	DEPREL: case
+ID: 6	WORD: bio		HEAD ID: 1	HEAD: What	DEPREL: nsubj
+ID: 7	WORD: ?		HEAD ID: 1	HEAD: What	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 19:
+What is this repository's description?
+TOKENS:
+What
+is
+this
+repository
+'s
+description
+?
+
+POS TAGS:
+PRON
+AUX
+DET
+NOUN
+PART
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: What		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 2	WORD: is		HEAD ID: 1	HEAD: What	DEPREL: cop
+ID: 3	WORD: this		HEAD ID: 4	HEAD: repository	DEPREL: det
+ID: 4	WORD: repository		HEAD ID: 6	HEAD: description	DEPREL: nmod:poss
+ID: 5	WORD: 's		HEAD ID: 4	HEAD: repository	DEPREL: case
+ID: 6	WORD: description		HEAD ID: 1	HEAD: What	DEPREL: nsubj
+ID: 7	WORD: ?		HEAD ID: 1	HEAD: What	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 20:
+What is this repository's owner's name?
+TOKENS:
+What
+is
+this
+repository
+'s
+owner
+'s
+name
+?
+
+POS TAGS:
+PRON
+AUX
+DET
+NOUN
+PART
+NOUN
+PART
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: What		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 2	WORD: is		HEAD ID: 1	HEAD: What	DEPREL: cop
+ID: 3	WORD: this		HEAD ID: 4	HEAD: repository	DEPREL: det
+ID: 4	WORD: repository		HEAD ID: 6	HEAD: owner	DEPREL: nmod:poss
+ID: 5	WORD: 's		HEAD ID: 4	HEAD: repository	DEPREL: case
+ID: 6	WORD: owner		HEAD ID: 8	HEAD: name	DEPREL: nmod:poss
+ID: 7	WORD: 's		HEAD ID: 6	HEAD: owner	DEPREL: case
+ID: 8	WORD: name		HEAD ID: 1	HEAD: What	DEPREL: nsubj
+ID: 9	WORD: ?		HEAD ID: 1	HEAD: What	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 21:
+When was this repository updated?
+TOKENS:
+When
+was
+this
+repository
+updated
+?
+
+POS TAGS:
+ADV
+AUX
+DET
+NOUN
+VERB
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: When		HEAD ID: 5	HEAD: updated	DEPREL: advmod
+ID: 2	WORD: was		HEAD ID: 1	HEAD: When	DEPREL: cop
+ID: 3	WORD: this		HEAD ID: 4	HEAD: repository	DEPREL: det
+ID: 4	WORD: repository		HEAD ID: 5	HEAD: updated	DEPREL: nsubj:pass
+ID: 5	WORD: updated		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 6	WORD: ?		HEAD ID: 1	HEAD: When	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 22:
+When this user have created their profile?
+TOKENS:
+When
+this
+user
+have
+created
+their
+profile
+?
+
+POS TAGS:
+ADV
+DET
+NOUN
+AUX
+VERB
+PRON
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: When		HEAD ID: 5	HEAD: created	DEPREL: mark
+ID: 2	WORD: this		HEAD ID: 3	HEAD: user	DEPREL: det
+ID: 3	WORD: user		HEAD ID: 5	HEAD: created	DEPREL: nsubj
+ID: 4	WORD: have		HEAD ID: 5	HEAD: created	DEPREL: aux
+ID: 5	WORD: created		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 6	WORD: their		HEAD ID: 7	HEAD: profile	DEPREL: nmod:poss
+ID: 7	WORD: profile		HEAD ID: 5	HEAD: created	DEPREL: obj
+ID: 8	WORD: ?		HEAD ID: 5	HEAD: created	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 23:
+What is this user's disk usage?
+TOKENS:
+What
+is
+this
+user
+'s
+disk
+usage
+?
+
+POS TAGS:
+PRON
+AUX
+DET
+NOUN
+PART
+NOUN
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: What		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 2	WORD: is		HEAD ID: 1	HEAD: What	DEPREL: cop
+ID: 3	WORD: this		HEAD ID: 4	HEAD: user	DEPREL: det
+ID: 4	WORD: user		HEAD ID: 7	HEAD: usage	DEPREL: nmod:poss
+ID: 5	WORD: 's		HEAD ID: 4	HEAD: user	DEPREL: case
+ID: 6	WORD: disk		HEAD ID: 7	HEAD: usage	DEPREL: compound
+ID: 7	WORD: usage		HEAD ID: 1	HEAD: What	DEPREL: nsubj
+ID: 8	WORD: ?		HEAD ID: 1	HEAD: What	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 24:
+What is this user's repositories url?
+TOKENS:
+What
+is
+this
+user
+'s
+repositories
+url
+?
+
+POS TAGS:
+PRON
+AUX
+DET
+NOUN
+PART
+NOUN
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: What		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 2	WORD: is		HEAD ID: 1	HEAD: What	DEPREL: cop
+ID: 3	WORD: this		HEAD ID: 4	HEAD: user	DEPREL: det
+ID: 4	WORD: user		HEAD ID: 7	HEAD: url	DEPREL: nmod:poss
+ID: 5	WORD: 's		HEAD ID: 4	HEAD: user	DEPREL: case
+ID: 6	WORD: repositories		HEAD ID: 7	HEAD: url	DEPREL: compound
+ID: 7	WORD: url		HEAD ID: 1	HEAD: What	DEPREL: nsubj
+ID: 8	WORD: ?		HEAD ID: 1	HEAD: What	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 25:
+What is this repository's clone url?
+TOKENS:
+What
+is
+this
+repository
+'s
+clone
+url
+?
+
+POS TAGS:
+PRON
+AUX
+DET
+NOUN
+PART
+NOUN
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: What		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 2	WORD: is		HEAD ID: 1	HEAD: What	DEPREL: cop
+ID: 3	WORD: this		HEAD ID: 4	HEAD: repository	DEPREL: det
+ID: 4	WORD: repository		HEAD ID: 7	HEAD: url	DEPREL: nmod:poss
+ID: 5	WORD: 's		HEAD ID: 4	HEAD: repository	DEPREL: case
+ID: 6	WORD: clone		HEAD ID: 7	HEAD: url	DEPREL: compound
+ID: 7	WORD: url		HEAD ID: 1	HEAD: What	DEPREL: nsubj
+ID: 8	WORD: ?		HEAD ID: 1	HEAD: What	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 26:
+What is this repository's commits url?
+TOKENS:
+What
+is
+this
+repository
+'s
+commits
+url
+?
+
+POS TAGS:
+PRON
+AUX
+DET
+NOUN
+PART
+NOUN
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: What		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 2	WORD: is		HEAD ID: 1	HEAD: What	DEPREL: cop
+ID: 3	WORD: this		HEAD ID: 4	HEAD: repository	DEPREL: det
+ID: 4	WORD: repository		HEAD ID: 7	HEAD: url	DEPREL: nmod:poss
+ID: 5	WORD: 's		HEAD ID: 4	HEAD: repository	DEPREL: case
+ID: 6	WORD: commits		HEAD ID: 7	HEAD: url	DEPREL: compound
+ID: 7	WORD: url		HEAD ID: 1	HEAD: What	DEPREL: nsubj
+ID: 8	WORD: ?		HEAD ID: 1	HEAD: What	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 27:
+Does this repository have downloads?
+TOKENS:
+Does
+this
+repository
+have
+downloads
+?
+
+POS TAGS:
+AUX
+DET
+NOUN
+VERB
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: Does		HEAD ID: 4	HEAD: have	DEPREL: aux
+ID: 2	WORD: this		HEAD ID: 3	HEAD: repository	DEPREL: det
+ID: 3	WORD: repository		HEAD ID: 4	HEAD: have	DEPREL: nsubj
+ID: 4	WORD: have		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 5	WORD: downloads		HEAD ID: 4	HEAD: have	DEPREL: obj
+ID: 6	WORD: ?		HEAD ID: 4	HEAD: have	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 28:
+What is this repository's merges url?
+TOKENS:
+What
+is
+this
+repository
+'s
+merges
+url
+?
+
+POS TAGS:
+PRON
+AUX
+DET
+NOUN
+PART
+VERB
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: What		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 2	WORD: is		HEAD ID: 1	HEAD: What	DEPREL: cop
+ID: 3	WORD: this		HEAD ID: 4	HEAD: repository	DEPREL: det
+ID: 4	WORD: repository		HEAD ID: 6	HEAD: merges	DEPREL: nsubj
+ID: 5	WORD: 's		HEAD ID: 4	HEAD: repository	DEPREL: case
+ID: 6	WORD: merges		HEAD ID: 1	HEAD: What	DEPREL: nsubj
+ID: 7	WORD: url		HEAD ID: 6	HEAD: merges	DEPREL: obj
+ID: 8	WORD: ?		HEAD ID: 1	HEAD: What	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 29:
+What is this repository's parent?
+TOKENS:
+What
+is
+this
+repository
+'s
+parent
+?
+
+POS TAGS:
+PRON
+AUX
+DET
+NOUN
+PART
+NOUN
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: What		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 2	WORD: is		HEAD ID: 1	HEAD: What	DEPREL: cop
+ID: 3	WORD: this		HEAD ID: 4	HEAD: repository	DEPREL: det
+ID: 4	WORD: repository		HEAD ID: 6	HEAD: parent	DEPREL: nmod:poss
+ID: 5	WORD: 's		HEAD ID: 4	HEAD: repository	DEPREL: case
+ID: 6	WORD: parent		HEAD ID: 1	HEAD: What	DEPREL: nsubj
+ID: 7	WORD: ?		HEAD ID: 1	HEAD: What	DEPREL: punct
+
+NAMED ENTITIES:
+
+QUESTION 30:
+How many open issues does this repository have?
+TOKENS:
+How
+many
+open
+issues
+does
+this
+repository
+have
+?
+
+POS TAGS:
+ADV
+ADJ
+ADJ
+NOUN
+AUX
+DET
+NOUN
+VERB
+PUNCT
+
+DEPENDENCY TREE:
+ID: 1	WORD: How		HEAD ID: 2	HEAD: many	DEPREL: advmod
+ID: 2	WORD: many		HEAD ID: 4	HEAD: issues	DEPREL: amod
+ID: 3	WORD: open		HEAD ID: 4	HEAD: issues	DEPREL: amod
+ID: 4	WORD: issues		HEAD ID: 8	HEAD: have	DEPREL: obj
+ID: 5	WORD: does		HEAD ID: 8	HEAD: have	DEPREL: aux
+ID: 6	WORD: this		HEAD ID: 7	HEAD: repository	DEPREL: det
+ID: 7	WORD: repository		HEAD ID: 8	HEAD: have	DEPREL: nsubj
+ID: 8	WORD: have		HEAD ID: 0	HEAD: ROOT	DEPREL: root
+ID: 9	WORD: ?		HEAD ID: 8	HEAD: have	DEPREL: punct
+
+NAMED ENTITIES:
+
