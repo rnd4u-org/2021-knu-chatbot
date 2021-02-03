@@ -1,0 +1,55 @@
+QUESTION 1
+What license does the <http://resources.samsung.com/projects/.net> project have?
+
+SPARQL QUERY 1
+PREFIX terms: <http://purl.org/dc/terms/>
+SELECT ?license
+WHERE {<http://resources.samsung.com/projects/.net> <http://purl.org/dc/terms/license> ?license.
+}
+
+QUESTION 2
+Which repositories does the <http://resources.samsung.com/projects/.net> project have?
+
+SPARQL QUERY 2
+PREFIX terms: <http://purl.org/dc/terms/>
+SELECT ?repository
+WHERE {<http://resources.samsung.com/projects/.net> <http://resources.samsung.com/git/repository> ?repository. 
+}
+
+QUESTION 3
+Which license and description does the <http://resources.samsung.com/projects/.net> project have?
+
+SPARQL QUERY 3
+PREFIX terms: <http://purl.org/dc/terms/>
+SELECT ?license ?description
+WHERE {<http://resources.samsung.com/projects/.net> <http://purl.org/dc/terms/license> ?license.
+       <http://resources.samsung.com/projects/.net> <http://purl.org/dc/terms/description> ?description.
+}
+
+
+QUESTION 4
+Who contributed to the <http://resources.samsung.com/repositories/boostorg/boost> repository?
+
+SPARQL QUERY 4
+PREFIX terms: <http://purl.org/dc/terms/>
+SELECT ?contributor
+WHERE {<http://resources.samsung.com/repositories/boostorg/boost> <http://purl.org/dc/terms/contributor> ?contributor.
+}
+
+QUESTION 5
+Which homepage does the <http://resources.samsung.com/projects/.net> project have?
+
+SPARQL QUERY 5
+PREFIX terms: <http://purl.org/dc/terms/>
+SELECT ?homepage
+WHERE {<http://resources.samsung.com/projects/.net> <http://resources.samsung.com/git/homepage> ?homepage.
+}
+
+QUESTION 6
+What projects did the <http://resources.samsung.com/contributors/1wheel> contributor contribute to?
+
+SPARQL QUERY 6
+PREFIX terms: <http://purl.org/dc/terms/>
+SELECT ?project
+WHERE {<http://resources.samsung.com/contributors/1wheel> <http://purl.org/dc/terms/contributor> ?project.
+}
