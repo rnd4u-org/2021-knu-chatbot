@@ -1,0 +1,18 @@
+Environment: Python(simple scripting)
+Yaroslav Pishchanskyi
+
+SubTask1:
+
+Login:  yaroslav1044
+ID:  76735465
+Avatar url:  https://avatars.githubusercontent.com/u/76735465?v=4
+Created at:  2020-12-29 12:39:55
+Followers:  0
+
+SubTask2:
+
+ID:  335436549
+Full name:  yaroslav1044/omg
+Owner login:  yaroslav1044
+Default branch:  main
+HTML url:  https://github.com/yaroslav1044/omg
