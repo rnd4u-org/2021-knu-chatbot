@@ -1,0 +1,51 @@
+1.What license does 7zip project have?
+	LGPL-2.1-only
+
+2.Which repositories does androidplot project have?
+	http://resources.samsung.com/repositories/halfhp/androidplot
+
+3.Which license and description does tayga project have?
+	License:
+		GPL-2.0-or-later
+
+	Description:
+		TAYGA is an out-of-kernel stateless NAT64 implementation for Linux that uses the TUN driver to exchange IPv4 and IPv6 packets with the kernel. It is intended to provide production-quality NAT64 service for networks where dedicated NAT64 hardware would be overkill.
+
+4.Who contributed to jupyter/governance repository?
+	http://resources.samsung.com/contributors/minrk
+	http://resources.samsung.com/contributors/takluyver
+	http://resources.samsung.com/contributors/carreau
+	http://resources.samsung.com/contributors/ellisonbg
+	http://resources.samsung.com/contributors/fperez
+	http://resources.samsung.com/contributors/ivanov
+	http://resources.samsung.com/contributors/jasongrout
+	http://resources.samsung.com/contributors/damianavila
+	http://resources.samsung.com/contributors/sylvaincorlay
+	http://resources.samsung.com/contributors/rgbkrk
+	http://resources.samsung.com/contributors/willingc
+	http://resources.samsung.com/contributors/blink1073
+	http://resources.samsung.com/contributors/parente
+	http://resources.samsung.com/contributors/afshin
+	http://resources.samsung.com/contributors/choldgraf
+	http://resources.samsung.com/contributors/jankatins
+	http://resources.samsung.com/contributors/yuvipanda
+	http://resources.samsung.com/contributors/kirstiejane
+	http://resources.samsung.com/contributors/lresende
+	http://resources.samsung.com/contributors/ruv7
+	http://resources.samsung.com/contributors/ssyh
+
+5.Which homepage does 7zip project have?
+	https://www.7-zip.org/
+
+6.What projects did jackdanger contribute to?
+	cryodex/sql-parser:3
+	square/etl:1
+	anaynayak/aws-security-viz:1
+	ctran/annotate_models:8
+	lfittl/pg_query:32
+	dabeaz/ply:1
+	activeadmin/inherited_resources:3
+	jackdanger/ruby_prototype:23
+	spulec/moto:390
+	rabbitmq/gen_smtp:80
+
