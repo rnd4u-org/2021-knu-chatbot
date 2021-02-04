@@ -1,0 +1,36 @@
+Environment: Python 
+vlad bilenko
+What license does the <abseil> project have?
+Apache-2.0
+Which repositories does <abseil> project have?
+http://resources.samsung.com/repositories/abseil/abseil-py
+http://resources.samsung.com/repositories/abseil/abseil-cpp
+http://resources.samsung.com/repositories/abseil/federation-head
+http://resources.samsung.com/repositories/abseil/abseil-hello
+http://resources.samsung.com/repositories/abseil/federation-hello
+http://resources.samsung.com/repositories/abseil/abseilhub.io
+Which license and description does <adeb> project have?
+License:
+GPL-2.0-or-later
+Description:
+A debian-based shell environment designed for Android and adb<br>
+Who contributed to <alsa-project/tinycompress> repository?
+http://resources.samsung.com/contributors/ford-prefect
+http://resources.samsung.com/contributors/perexg
+http://resources.samsung.com/contributors/plbossart
+http://resources.samsung.com/contributors/dbaluta
+http://resources.samsung.com/contributors/vinodkoul
+http://resources.samsung.com/contributors/charleskeepax
+http://resources.samsung.com/contributors/rohkkumar
+Which homepage does <abseil> project have?
+https://abseil.io/
+What projects did <takaswie> contribute to?
+alsa-project/alsa-tools:1
+alsa-project/alsa-utils:93
+alsa-project/alsa-lib:150
+alsa-project/alsa-oss:1
+alsa-project/alsa-gi:139
+alsa-project/libhinawa:595
+alsa-project/hinawa-rs:17
+alsa-project/alsa-gobject:527
+alsa-project/snd-firewire-ctl-services:422
