@@ -1,0 +1,42 @@
+What license does the abseil project have ?
+
+SELECT ?license
+WHERE{
+<http://resources.samsung.com/projects/abseil> <http://purl.org/dc/terms/license> ?license .
+}
+Which repositories does the abseil project have?
+
+SELECT ?repository
+WHERE{
+<http://resources.samsung.com/projects/abseil> <http://resources.samsung.com/git/repository> ?repository.
+}
+
+Which license and description does the abseil project have?
+
+SELECT ?license ?description
+WHERE{
+<http://resources.samsung.com/projects/abseil> <http://purl.org/dc/terms/license> ?license.
+<http://resources.samsung.com/projects/abseil> <http://purl.org/dc/terms/description> ?description.
+}
+
+Who contributed to the ceph/boost repository?
+
+SELECT ?contributor
+WHERE{
+<http://resources.samsung.com/repositories/ceph/boost> <http://purl.org/dc/terms/contributor> ?contributor.
+}
+
+Which homepage does the abseil project have?
+
+SELECT ?homepage
+WHERE{
+<http://resources.samsung.com/projects/abseil> <http://resources.samsung.com/git/homepage> ?homepage.
+}
+
+What projects did the 1wheel contributor contribute to?
+
+SELECT ?project
+WHERE{
+<http://resources.samsung.com/contributors/1wheel> <http://purl.org/dc/terms/contributor> ?project.
+}
+
