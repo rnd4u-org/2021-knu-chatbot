@@ -1,0 +1,13 @@
+1. What license does the .net project have?
+MIT
+2. Which repositories does the .net project have?
+http://resources.samsung.com/repositories/dotnet/runtime
+3. Which license and description does the .net project have?
+MIT
+
+4. Who contributed to the boostorg/boost repository?
+http://resources.samsung.com/contributors/ericniebler
+5. Which homepage does the .net project have?
+https://docs.microsoft.com/dotnet/core/
+6. What projects did the 1wheel contributor contribute to?
+d3/d3-hexbin:1
