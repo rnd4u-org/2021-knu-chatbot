@@ -7,12 +7,17 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 # - Who contributed to the <any> repository?
 # - Which homepage does the <any> project have?
 # - What projects did the <any> contributor contribute to?
+# [Added]
+# - How many stars does the <any> repository have?
+# - Which title does the <any> project have?
+# - Which avatar does the <any> project have?
+# - How many subscribers does the <any> repository have?
+
 class NlpChatBot:
     def __init__(self):
         self.__nlp = stanza.Pipeline(lang='en')
         self.__sparql = SPARQLWrapper("http://localhost:7200/repositories/chatbot-samsung")
         self.__question = ''
-        self.__project = ''
         self.__links = [
             "http://resources.samsung.com/projects/",
             "http://purl.org/dc/terms/license",
@@ -21,7 +26,11 @@ class NlpChatBot:
             "http://resources.samsung.com/repositories/",
             "http://purl.org/dc/terms/contributor",
             "http://resources.samsung.com/git/homepage",
-            "http://resources.samsung.com/contributors/"
+            "http://resources.samsung.com/contributors/",
+            "http://resources.samsung.com/git/stars",
+            "http://purl.org/dc/terms/title",
+            "http://resources.samsung.com/git/avatar",
+            "http://resources.samsung.com/git/subscribers"
         ]
 
     @property
@@ -74,6 +83,26 @@ class NlpChatBot:
             self.selection = "?project"
             self.l.append(self.selection)
             self.query_body = f"<{self.__links[7]}{self.list_of_deprels['compound']}> <{self.__links[5]}> {self.selection} ."
+            return self.selection, self.query_body, len(self.l)
+        elif self.list_of_deprels['nsubj'] == 'repository' and self.list_of_deprels['obj'] == 'stars':
+            self.selection = "?star"
+            self.l.append(self.selection)
+            self.query_body = f"<{self.__links[4]}{self.list_of_deprels['compound']}/{self.list_of_deprels['conj']}> <{self.__links[8]}> {self.selection} ."
+            return self.selection, self.query_body, len(self.l)
+        elif self.list_of_deprels['nsubj'] == 'project' and self.list_of_deprels['obj'] == 'title':
+            self.selection = "?title"
+            self.l.append(self.selection)
+            self.query_body = f"<{self.__links[0]}{self.list_of_deprels['compound']}> <{self.__links[9]}> {self.selection} ."
+            return self.selection, self.query_body, len(self.l)
+        elif self.list_of_deprels['nsubj'] == 'project' and self.list_of_deprels['obj'] == 'avatar':
+            self.selection = "?avatar"
+            self.l.append(self.selection)
+            self.query_body = f"<{self.__links[0]}{self.list_of_deprels['compound']}> <{self.__links[10]}> {self.selection} ."
+            return self.selection, self.query_body, len(self.l)
+        elif self.list_of_deprels['nsubj'] == 'repository' and self.list_of_deprels['obj'] == 'subscribers':
+            self.selection = "?subscriber"
+            self.l.append(self.selection)
+            self.query_body = f"<{self.__links[4]}{self.list_of_deprels['compound']}/{self.list_of_deprels['conj']}> <{self.__links[11]}> {self.selection} ."
             return self.selection, self.query_body, len(self.l)
         else:
             return "WTf is this query? :/"
