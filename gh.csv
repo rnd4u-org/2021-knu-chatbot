@@ -1,7 +1,19 @@
-entities:Project,,,What license does the <A> project have?,select ?a where { <A> terms:license ?a },select distinct ?a { ?a terms:lisense [] }
-entities:Project,,,What description does the <A> project have?,select ?a where { <A> terms:description ?a },select distinct ?a { ?a terms:description [] }
-entities:Project,,,What title does the <A> project have?,select ?a where { <A> terms:title ?a },select distinct ?a { ?a terms:lisense [] }
-entities:Project,,,What avatar does the <A> project have?,select ?a where { <A> git:avatar ?a },select distinct ?a { ?a git:avatar [] }
-entities:Project,,,What homepage does the <A> project have?,select ?a where { <A> git:homepage ?a },select distinct ?a { ?a git:homepage [] }
-entities:Project,,,What avatar does the <A> project have?,select ?a where { <A> git:avatar ?a },select distinct ?a { ?a git:avatar [] }
-entities:Project,,,What BlackList does the <A> project have?,select ?a where { <A> git:isBlackList ?a },select distinct ?a { ?a git:isBlackList [] }
+entities:Project;;;What license does the <A> project have?;select ?a where { <A> terms:license ?a };select distinct ?a { ?a terms:lisense [] }
+entities:Project;;;What description does the <A> project have?;select ?a where { <A> terms:description ?a };select distinct ?a { ?a terms:description [] }
+entities:Project;;;What title does the <A> project have?;select ?a where { <A> terms:title ?a };select distinct ?a { ?a terms:lisense [] }
+entities:Project;;;What avatar does the <A> project have?;select ?a where { <A> git:avatar ?a };select distinct ?a { ?a git:avatar [] }
+entities:Project;;;What homepage does the <A> project have?;select ?a where { <A> git:homepage ?a };select distinct ?a { ?a git:homepage [] }
+entities:Project;;;What avatar does the <A> project have?;select ?a where { <A> git:avatar ?a };select distinct ?a { ?a git:avatar [] }
+entities:Project;;;Is the <A>  project blacklisted?;select ?a where { <A> git:isBlackList ?a };select distinct ?a { ?a git:isBlackList [] }
+entities:Project;;;What shortDescription does the <A> project have?;select ?a where { <A> git:shortDescription ?a };select distinct ?a { ?a git:shortDescription [] }
+entities:Contributor;;;What language does the <A> contributor have?;select ?a where { <A> terms:language ?a };select distinct ?a { ?a terms:language [] }
+entities:Contributor;;;What commitsCount does the <A> contributor have?;select ?a where { <A> git:commitsCount ?a };select distinct ?a { ?a git:commitsCount [] }
+entities:Contributor;;;What contributorGroup does the <A> contributor have?;select ?a where { <A> git:contributorGroup ?a };select distinct ?a { ?a git:contributorGroup [] }
+entities:Contributor;;;What contributor does the <A> contributor have?;select ?a where { <A> terms:contributor ?a };select distinct ?a { ?a terms:contributor [] }
+entities:Repository;;;when  <A> repository were created ?;select ?a where { <A> terms:created ?a };select distinct ?a { ?a terms:created [] }
+entities:Repository;;;What version does the <A> repository have?;select ?a where { <A> terms:hasVersion ?a };select distinct ?a { ?a terms:hasVersion [] }
+entities:Repository;;;when   the <A> repository were modified?;select ?a where { <A> terms:modified ?a };select distinct ?a { ?a terms:modified [] }
+entities:Repository;;;What title does the <A> repository have?;select ?a where { <A> terms:title ?a };select distinct ?a { ?a terms:title [] }
+entities:Repository;;;What forks does the <A> repository have?;select ?a where { <A> git:forks ?a };select distinct ?a { ?a git:forks [] }
+entities:Repository;;;when revisionDate of the <A> repository ?;select ?a where { <A> git:revisionDate ?a };select distinct ?a { ?a git:revisionDate [] }
+entities:Repository;;;What stars does the <A> repository have?;select ?a where { <A> git:stars ?a };select distinct ?a { ?a git:stars [] }
