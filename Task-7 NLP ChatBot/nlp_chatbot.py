@@ -56,7 +56,10 @@ class NlpChatBot:
         if self.list_of_deprels['nsubj'] == 'project' and self.list_of_deprels['obj'] == 'license':
             self.selection = "?license"
             self.l.append(self.selection)
-            self.query_body = f"<{self.__links[0]}{self.list_of_deprels['compound']}> <{self.__links[1]}> {self.selection} ."
+            if 'compound' in self.list_of_deprels:
+                self.query_body = f"<{self.__links[0]}{self.list_of_deprels['compound']}> <{self.__links[1]}> {self.selection} ."
+            elif 'amod' in self.list_of_deprels:
+                self.query_body = f"<{self.__links[0]}{self.list_of_deprels['amod']}> <{self.__links[1]}> {self.selection} ."
             return self.selection, self.query_body, len(self.l)
         elif self.list_of_deprels['nsubj'] == 'project' and self.list_of_deprels['obj'] == 'repositories':
             self.selection = "?repository"
@@ -67,7 +70,10 @@ class NlpChatBot:
             self.selection = "?license ?description"
             self.l.append(self.selection.split()[0])
             self.l.append(self.selection.split()[1])
-            self.query_body = f"<{self.__links[0]}{self.list_of_deprels['compound']}> <{self.__links[1]}> {self.selection.split()[0]} .\n<{self.__links[0]}{self.list_of_deprels['compound']}> <{self.__links[3]}> {self.selection.split()[1]} ."
+            if 'compound' in self.list_of_deprels:
+                self.query_body = f"<{self.__links[0]}{self.list_of_deprels['compound']}> <{self.__links[1]}> {self.selection.split()[0]} .\n<{self.__links[0]}{self.list_of_deprels['compound']}> <{self.__links[3]}> {self.selection.split()[1]} ."
+            elif 'amod' in self.list_of_deprels:
+                self.query_body = f"<{self.__links[0]}{self.list_of_deprels['amod']}> <{self.__links[1]}> {self.selection.split()[0]} .\n<{self.__links[0]}{self.list_of_deprels['amod']}> <{self.__links[3]}> {self.selection.split()[1]} ."
             return self.selection, self.query_body, len(self.l)
         elif self.list_of_deprels['root'] == "contributed" and self.list_of_deprels['nsubj'] == "Who":
             self.selection = "?contributor"
@@ -77,12 +83,18 @@ class NlpChatBot:
         elif self.list_of_deprels['nsubj'] == 'project' and self.list_of_deprels['obj'] == 'homepage':
             self.selection = "?homepage"
             self.l.append(self.selection)
-            self.query_body = f"<{self.__links[0]}{self.list_of_deprels['compound']}> <{self.__links[6]}> {self.selection} ."
+            if 'compound' in self.list_of_deprels:
+                self.query_body = f"<{self.__links[0]}{self.list_of_deprels['compound']}> <{self.__links[6]}> {self.selection} ."
+            elif 'amod' in self.list_of_deprels:
+                self.query_body = f"<{self.__links[0]}{self.list_of_deprels['amod']}> <{self.__links[6]}> {self.selection} ."
             return self.selection, self.query_body, len(self.l)
         elif self.list_of_deprels['nsubj'] == 'contributor' and self.list_of_deprels['root'] == 'contribute':
             self.selection = "?project"
             self.l.append(self.selection)
-            self.query_body = f"<{self.__links[7]}{self.list_of_deprels['compound']}> <{self.__links[5]}> {self.selection} ."
+            if 'compound' in self.list_of_deprels:
+                self.query_body = f"<{self.__links[7]}{self.list_of_deprels['compound']}> <{self.__links[5]}> {self.selection} ."
+            elif 'amod' in self.list_of_deprels:
+                self.query_body = f"<{self.__links[7]}{self.list_of_deprels['amod']}> <{self.__links[5]}> {self.selection} ."
             return self.selection, self.query_body, len(self.l)
         elif self.list_of_deprels['nsubj'] == 'repository' and self.list_of_deprels['obj'] == 'stars':
             self.selection = "?star"
@@ -92,12 +104,18 @@ class NlpChatBot:
         elif self.list_of_deprels['nsubj'] == 'project' and self.list_of_deprels['obj'] == 'title':
             self.selection = "?title"
             self.l.append(self.selection)
-            self.query_body = f"<{self.__links[0]}{self.list_of_deprels['compound']}> <{self.__links[9]}> {self.selection} ."
+            if 'compound' in self.list_of_deprels:
+                self.query_body = f"<{self.__links[0]}{self.list_of_deprels['compound']}> <{self.__links[9]}> {self.selection} ."
+            elif 'amod' in self.list_of_deprels:
+                self.query_body = f"<{self.__links[0]}{self.list_of_deprels['amod']}> <{self.__links[9]}> {self.selection} ."
             return self.selection, self.query_body, len(self.l)
         elif self.list_of_deprels['nsubj'] == 'project' and self.list_of_deprels['obj'] == 'avatar':
             self.selection = "?avatar"
             self.l.append(self.selection)
-            self.query_body = f"<{self.__links[0]}{self.list_of_deprels['compound']}> <{self.__links[10]}> {self.selection} ."
+            if 'compound' in self.list_of_deprels:
+                self.query_body = f"<{self.__links[0]}{self.list_of_deprels['compound']}> <{self.__links[10]}> {self.selection} ."
+            elif 'amod' in self.list_of_deprels:
+                self.query_body = f"<{self.__links[0]}{self.list_of_deprels['amod']}> <{self.__links[10]}> {self.selection} ."
             return self.selection, self.query_body, len(self.l)
         elif self.list_of_deprels['nsubj'] == 'repository' and self.list_of_deprels['obj'] == 'subscribers':
             self.selection = "?subscriber"
@@ -118,8 +136,8 @@ class NlpChatBot:
         for i in results['results']['bindings']:
             if self.choose_query_form()[2] == 1:
                 return i[f'{self.selection[1:]}']['value']
-        else:
-            return i[f'{self.selection[1:8]}']["value"], i[f'{self.selection[-11:]}']["value"]
+            else:
+                return i[f'{self.selection[1:8]}']["value"], i[f'{self.selection[-11:]}']["value"]
 
 if __name__ == "__main__":
     ncb = NlpChatBot()
