@@ -1,0 +1,11 @@
+entities:Project;;;what license does the <A> project have;select ?a where { <A> terms:license ?a };select distinct ?a { ?a terms:license [] }
+entities:Project;;;what description does the <A> project have;select ?a where { <A> terms:description ?a };select distinct ?a { ?a terms:description [] }
+entities:Project;;;what title does the <A> project have;select ?a where { <A> terms:title ?a };select distinct ?a { ?a terms:title [] }
+entities:Project;;;what avatar does the <A> project have;select ?a where { <A> git:avatar ?a };select distinct ?a { ?a git:avatar [] }
+entities:Project;;;what homepage does the <A> project have;select ?a where { <A> git:homepage ?a };select distinct ?a { ?a git:homepage [] }
+entities:Project;;;is the <A> project blacklisted;select ?a where { <A> git:isBlackList ?a };select distinct ?a { ?a git:isBlackList [] }
+entities:Project;;;what repositories does the <A> project have;select ?a where { <A> git:repository ?a };select distinct ?a { ?a git:repository [] }
+entities:Project;;;what shortDescription does the <A> project have;select ?a where { <A> git:shortDescription ?a };select distinct ?a { ?a git:shortDescription [] }
+entities:Project;;;what type does the <A> project have;select ?a where { <A> rdf:type ?a };select distinct ?a { ?a rdf:type [] }
+entities:Project;;;what label does the <A> project have;select ?a where { <A> skos:core#prefLabel ?a };select distinct ?a { ?a skos:core#prefLabel [] }
+                                                                          
