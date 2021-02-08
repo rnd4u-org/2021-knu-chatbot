@@ -1,14 +1,18 @@
-entities:Project;;;What description does the <any> project have?;select ?a where { <any> terms:description ?a};select distinct ?a { ?a terms:description [] }
-entities:Project;;;What license does the <any> project have?;select ?a where { <any> terms:license ?a};select distinct ?a { ?a terms:license [] }
-entities:Project;;;What title does the <any> project have?;select ?a where { <any> terms:title ?a};select distinct ?a { ?a terms:title [] }
-entities:Project;;;What avatar does the <any> project have?;select ?a where { <any> git:avatar ?a};select distinct ?a { ?a git:avatar [] }
-entities:Project;;;What homepage does the <any> project have?;select ?a where { <any> git:homepage ?a};select distinct ?a { ?a git:homepage [] }
-entities:Project;;;What short description does the <any> project have?;select ?a where { <any> git:shortDescription ?a};select distinct ?a { ?a git:shortDescription [] }
-entities:Project;;;What is <any> project's internal keywords?;select ?a where { <any> vocabulary:internalKeyword ?a};select distinct ?a { ?a vocabulary:internalKeyword [] }
-entities:Project;;;Does <any> project have a black list?;select ?a where { <any> git:isBlackList ?a};select distinct ?a { ?a git:isBlackList [] }
-entities:Project;;;What label does <any> project have?;select ?a where { <any> skos:core#prefLabel ?a};select distinct ?a { ?a skos:core#prefLabel [] }
-entities:Project;;;What repository does <any> project have?;select ?a where { <any> git:repository ?a};select distinct ?a { ?a git:repository [] }
-;;;;;
-;;;;;
-;;;;;
-;;;;;
+entities:Project;;;what description does the <any> project have;select ?a where { <any> terms:description ?a};select distinct ?a { ?a terms:description [] }
+entities:Project;;;what license does the <any> project have;select ?a where { <any> terms:license ?a};select distinct ?a { ?a terms:license [] }
+entities:Project;;;what title does the <any> project have;select ?a where { <any> terms:title ?a};select distinct ?a { ?a terms:title [] }
+entities:Project;;;what avatar does the <any> project have;select ?a where { <any> git:avatar ?a};select distinct ?a { ?a git:avatar [] }
+entities:Project;;;what homepage does the <any> project have;select ?a where { <any> git:homepage ?a};select distinct ?a { ?a git:homepage [] }
+entities:Project;;;what short description does the <any> project have;select ?a where { <any> git:shortDescription ?a};select distinct ?a { ?a git:shortDescription [] }
+entities:Project;;;what is <any> project's internal keywords;select ?a where { <any> vocabulary:internalKeyword ?a};select distinct ?a { ?a vocabulary:internalKeyword [] }
+entities:Project;;;is <any> project blacklisted;select ?a where { <any> git:isBlackList ?a};select distinct ?a { ?a git:isBlackList [] }
+entities:Project;;;what label does <any> project have;select ?a where { <any> skos:core#prefLabel ?a};select distinct ?a { ?a skos:core#prefLabel [] }
+entities:Project;;;what repository does <any> project have;select ?a where { <any> git:repository ?a};select distinct ?a { ?a git:repository [] }
+entities:Contributor;;;what avatar does <any contributor have;select ?a where { <any> git:avatar ?a};select distinct ?a { ?a git:avatar [] }
+entities:Contributor;;;what projects did <any> contributor conribute to;select ?a where { <any> terms:contributor ?a};select distinct ?a { ?a terms:contributor [] }
+entities:Contributor;;;what language does <any> contributor uses;select ?a where { <any> terms:language ?a};select distinct ?a { ?a terms:language [] }
+entities:Contributor;;;how many commits does <any> contributor have;select ?a where { <any> git:commitsCount ?a};select distinct ?a { ?a git:commitsCount [] }
+entities:Contributor;;;what is <any> contributor's group;select ?a where { <any> git:contributorGroup ?a};select distinct ?a { ?a git:contributorGroup [] }
+entities:Contributor;;;what is <any> contributor's name;select ?a where { <any> 0.1:name ?a};select distinct ?a { ?a 0.1:name [] }
+entities:Contributor;;;what is <any> contributor's account name;select ?a where { <any> 0.1:accountName ?a};select distinct ?a { ?a 0.1:accountName [] }
+entities:Contributor;;;what is <any> contributor's online chat account name;select ?a where { <any> 0.1:OnlineChatAccount ?a};select distinct ?a { ?a 0.1:OnlineChatAccount [] }
