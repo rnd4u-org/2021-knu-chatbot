@@ -1,0 +1,7 @@
+entities:Project,,,What license does the <A> project have?,select ?a where { <A> terms:license ?a },select distinct ?a { ?a terms:lisense [] }
+entities:Project,,,What description does the <A> project have?,select ?a where { <A> terms:description ?a },select distinct ?a { ?a terms:description [] }
+entities:Project,,,What title does the <A> project have?,select ?a where { <A> terms:title ?a },select distinct ?a { ?a terms:lisense [] }
+entities:Project,,,What avatar does the <A> project have?,select ?a where { <A> git:avatar ?a },select distinct ?a { ?a git:avatar [] }
+entities:Project,,,What homepage does the <A> project have?,select ?a where { <A> git:homepage ?a },select distinct ?a { ?a git:homepage [] }
+entities:Project,,,What avatar does the <A> project have?,select ?a where { <A> git:avatar ?a },select distinct ?a { ?a git:avatar [] }
+entities:Project,,,What BlackList does the <A> project have?,select ?a where { <A> git:isBlackList ?a },select distinct ?a { ?a git:isBlackList [] }
