@@ -1,0 +1,861 @@
+
+
+QUESTION 1. When was this repository created?
+Tokens: When
+was
+this
+repository
+created
+?
+
+Pos tags: When: ADV
+was: AUX
+this: DET
+repository: NOUN
+created: VERB
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: When, Head ID: 5, Head: created, Deprel: advmod
+ID: 2, Word: was, Head ID: 5, Head: created, Deprel: aux:pass
+ID: 3, Word: this, Head ID: 4, Head: repository, Deprel: det
+ID: 4, Word: repository, Head ID: 5, Head: created, Deprel: nsubj:pass
+ID: 5, Word: created, Head ID: 0, Head: Root, Deprel: root
+ID: 6, Word: ?, Head ID: 5, Head: created, Deprel: punct
+
+Named entities: 
+
+QUESTION 2. When was this repository updated?
+Tokens: When
+was
+this
+repository
+updated
+?
+
+Pos tags: When: ADV
+was: AUX
+this: DET
+repository: NOUN
+updated: VERB
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: When, Head ID: 5, Head: updated, Deprel: advmod
+ID: 2, Word: was, Head ID: 5, Head: updated, Deprel: aux:pass
+ID: 3, Word: this, Head ID: 4, Head: repository, Deprel: det
+ID: 4, Word: repository, Head ID: 5, Head: updated, Deprel: nsubj
+ID: 5, Word: updated, Head ID: 0, Head: Root, Deprel: root
+ID: 6, Word: ?, Head ID: 5, Head: updated, Deprel: punct
+
+Named entities: 
+
+QUESTION 3. Who created this repository?
+Tokens: Who
+created
+this
+repository
+?
+
+Pos tags: Who: PRON
+created: VERB
+this: DET
+repository: NOUN
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: Who, Head ID: 2, Head: created, Deprel: nsubj
+ID: 2, Word: created, Head ID: 0, Head: Root, Deprel: root
+ID: 3, Word: this, Head ID: 4, Head: repository, Deprel: det
+ID: 4, Word: repository, Head ID: 2, Head: created, Deprel: obj
+ID: 5, Word: ?, Head ID: 2, Head: created, Deprel: punct
+
+Named entities: 
+
+QUESTION 4. What is the language of this repository?
+Tokens: What
+is
+the
+language
+of
+this
+repository
+?
+
+Pos tags: What: PRON
+is: AUX
+the: DET
+language: NOUN
+of: ADP
+this: DET
+repository: NOUN
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: What, Head ID: 0, Head: Root, Deprel: root
+ID: 2, Word: is, Head ID: 1, Head: What, Deprel: cop
+ID: 3, Word: the, Head ID: 4, Head: language, Deprel: det
+ID: 4, Word: language, Head ID: 1, Head: What, Deprel: nsubj
+ID: 5, Word: of, Head ID: 7, Head: repository, Deprel: case
+ID: 6, Word: this, Head ID: 7, Head: repository, Deprel: det
+ID: 7, Word: repository, Head ID: 4, Head: language, Deprel: nmod
+ID: 8, Word: ?, Head ID: 1, Head: What, Deprel: punct
+
+Named entities: 
+
+QUESTION 5. Who contributed to this project?
+Tokens: Who
+contributed
+to
+this
+project
+?
+
+Pos tags: Who: PRON
+contributed: VERB
+to: ADP
+this: DET
+project: NOUN
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: Who, Head ID: 2, Head: contributed, Deprel: nsubj
+ID: 2, Word: contributed, Head ID: 0, Head: Root, Deprel: root
+ID: 3, Word: to, Head ID: 5, Head: project, Deprel: case
+ID: 4, Word: this, Head ID: 5, Head: project, Deprel: det
+ID: 5, Word: project, Head ID: 2, Head: contributed, Deprel: obl
+ID: 6, Word: ?, Head ID: 2, Head: contributed, Deprel: punct
+
+Named entities: 
+
+QUESTION 6. What is this repository's contributors url?
+Tokens: What
+is
+this
+repository
+'s
+contributors
+url
+?
+
+Pos tags: What: PRON
+is: AUX
+this: DET
+repository: NOUN
+'s: PART
+contributors: NOUN
+url: NOUN
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: What, Head ID: 0, Head: Root, Deprel: root
+ID: 2, Word: is, Head ID: 1, Head: What, Deprel: cop
+ID: 3, Word: this, Head ID: 4, Head: repository, Deprel: det
+ID: 4, Word: repository, Head ID: 7, Head: url, Deprel: nmod:poss
+ID: 5, Word: 's, Head ID: 4, Head: repository, Deprel: case
+ID: 6, Word: contributors, Head ID: 7, Head: url, Deprel: compound
+ID: 7, Word: url, Head ID: 1, Head: What, Deprel: nsubj
+ID: 8, Word: ?, Head ID: 1, Head: What, Deprel: punct
+
+Named entities: 
+
+QUESTION 7. Does this repository have contributors?
+Tokens: Does
+this
+repository
+have
+contributors
+?
+
+Pos tags: Does: AUX
+this: DET
+repository: NOUN
+have: VERB
+contributors: NOUN
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: Does, Head ID: 4, Head: have, Deprel: aux
+ID: 2, Word: this, Head ID: 3, Head: repository, Deprel: det
+ID: 3, Word: repository, Head ID: 4, Head: have, Deprel: nsubj
+ID: 4, Word: have, Head ID: 0, Head: Root, Deprel: root
+ID: 5, Word: contributors, Head ID: 4, Head: have, Deprel: obj
+ID: 6, Word: ?, Head ID: 4, Head: have, Deprel: punct
+
+Named entities: 
+
+QUESTION 8. How many contributors does this project have?
+Tokens: How
+many
+contributors
+does
+this
+project
+have
+?
+
+Pos tags: How: ADV
+many: ADJ
+contributors: NOUN
+does: AUX
+this: DET
+project: NOUN
+have: VERB
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: How, Head ID: 2, Head: many, Deprel: advmod
+ID: 2, Word: many, Head ID: 3, Head: contributors, Deprel: amod
+ID: 3, Word: contributors, Head ID: 7, Head: have, Deprel: obj
+ID: 4, Word: does, Head ID: 7, Head: have, Deprel: aux
+ID: 5, Word: this, Head ID: 6, Head: project, Deprel: det
+ID: 6, Word: project, Head ID: 7, Head: have, Deprel: nsubj
+ID: 7, Word: have, Head ID: 0, Head: Root, Deprel: root
+ID: 8, Word: ?, Head ID: 7, Head: have, Deprel: punct
+
+Named entities: 
+
+QUESTION 9. How many watchers does this repository have?
+Tokens: How
+many
+watchers
+does
+this
+repository
+have
+?
+
+Pos tags: How: ADV
+many: ADJ
+watchers: NOUN
+does: AUX
+this: DET
+repository: NOUN
+have: VERB
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: How, Head ID: 2, Head: many, Deprel: advmod
+ID: 2, Word: many, Head ID: 3, Head: watchers, Deprel: amod
+ID: 3, Word: watchers, Head ID: 7, Head: have, Deprel: obj
+ID: 4, Word: does, Head ID: 7, Head: have, Deprel: aux
+ID: 5, Word: this, Head ID: 6, Head: repository, Deprel: det
+ID: 6, Word: repository, Head ID: 7, Head: have, Deprel: nsubj
+ID: 7, Word: have, Head ID: 0, Head: Root, Deprel: root
+ID: 8, Word: ?, Head ID: 7, Head: have, Deprel: punct
+
+Named entities: 
+
+QUESTION 10. How many forks does this repository have?
+Tokens: How
+many
+forks
+does
+this
+repository
+have
+?
+
+Pos tags: How: ADV
+many: ADJ
+forks: NOUN
+does: AUX
+this: DET
+repository: NOUN
+have: VERB
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: How, Head ID: 2, Head: many, Deprel: advmod
+ID: 2, Word: many, Head ID: 3, Head: forks, Deprel: amod
+ID: 3, Word: forks, Head ID: 7, Head: have, Deprel: obj
+ID: 4, Word: does, Head ID: 7, Head: have, Deprel: aux
+ID: 5, Word: this, Head ID: 6, Head: repository, Deprel: det
+ID: 6, Word: repository, Head ID: 7, Head: have, Deprel: nsubj
+ID: 7, Word: have, Head ID: 0, Head: Root, Deprel: root
+ID: 8, Word: ?, Head ID: 7, Head: have, Deprel: punct
+
+Named entities: 
+
+QUESTION 11. Does this repository have downloads?
+Tokens: Does
+this
+repository
+have
+downloads
+?
+
+Pos tags: Does: AUX
+this: DET
+repository: NOUN
+have: VERB
+downloads: NOUN
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: Does, Head ID: 4, Head: have, Deprel: aux
+ID: 2, Word: this, Head ID: 3, Head: repository, Deprel: det
+ID: 3, Word: repository, Head ID: 4, Head: have, Deprel: nsubj
+ID: 4, Word: have, Head ID: 0, Head: Root, Deprel: root
+ID: 5, Word: downloads, Head ID: 4, Head: have, Deprel: obj
+ID: 6, Word: ?, Head ID: 4, Head: have, Deprel: punct
+
+Named entities: 
+
+QUESTION 12. What is this repository's ID?
+Tokens: What
+is
+this
+repository
+'s
+ID
+?
+
+Pos tags: What: PRON
+is: AUX
+this: DET
+repository: NOUN
+'s: PART
+ID: NOUN
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: What, Head ID: 0, Head: Root, Deprel: root
+ID: 2, Word: is, Head ID: 1, Head: What, Deprel: cop
+ID: 3, Word: this, Head ID: 4, Head: repository, Deprel: det
+ID: 4, Word: repository, Head ID: 6, Head: ID, Deprel: nmod:poss
+ID: 5, Word: 's, Head ID: 4, Head: repository, Deprel: case
+ID: 6, Word: ID, Head ID: 1, Head: What, Deprel: nsubj
+ID: 7, Word: ?, Head ID: 1, Head: What, Deprel: punct
+
+Named entities: 
+
+QUESTION 13. Is this repository private?
+Tokens: Is
+this
+repository
+private
+?
+
+Pos tags: Is: AUX
+this: DET
+repository: NOUN
+private: ADJ
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: Is, Head ID: 4, Head: private, Deprel: cop
+ID: 2, Word: this, Head ID: 3, Head: repository, Deprel: det
+ID: 3, Word: repository, Head ID: 4, Head: private, Deprel: nsubj
+ID: 4, Word: private, Head ID: 0, Head: Root, Deprel: root
+ID: 5, Word: ?, Head ID: 4, Head: private, Deprel: punct
+
+Named entities: 
+
+QUESTION 14. When was this project created?
+Tokens: When
+was
+this
+project
+created
+?
+
+Pos tags: When: ADV
+was: AUX
+this: DET
+project: NOUN
+created: VERB
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: When, Head ID: 5, Head: created, Deprel: advmod
+ID: 2, Word: was, Head ID: 5, Head: created, Deprel: aux:pass
+ID: 3, Word: this, Head ID: 4, Head: project, Deprel: det
+ID: 4, Word: project, Head ID: 5, Head: created, Deprel: nsubj:pass
+ID: 5, Word: created, Head ID: 0, Head: Root, Deprel: root
+ID: 6, Word: ?, Head ID: 5, Head: created, Deprel: punct
+
+Named entities: 
+
+QUESTION 15. What is the full name of this project?
+Tokens: What
+is
+the
+full
+name
+of
+this
+project
+?
+
+Pos tags: What: PRON
+is: AUX
+the: DET
+full: ADJ
+name: NOUN
+of: ADP
+this: DET
+project: NOUN
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: What, Head ID: 0, Head: Root, Deprel: root
+ID: 2, Word: is, Head ID: 1, Head: What, Deprel: cop
+ID: 3, Word: the, Head ID: 5, Head: name, Deprel: det
+ID: 4, Word: full, Head ID: 5, Head: name, Deprel: amod
+ID: 5, Word: name, Head ID: 1, Head: What, Deprel: nsubj
+ID: 6, Word: of, Head ID: 8, Head: project, Deprel: case
+ID: 7, Word: this, Head ID: 8, Head: project, Deprel: det
+ID: 8, Word: project, Head ID: 5, Head: name, Deprel: nmod
+ID: 9, Word: ?, Head ID: 1, Head: What, Deprel: punct
+
+Named entities: 
+
+QUESTION 16. How many branches has this project?
+Tokens: How
+many
+branches
+has
+this
+project
+?
+
+Pos tags: How: ADV
+many: ADJ
+branches: NOUN
+has: VERB
+this: DET
+project: NOUN
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: How, Head ID: 2, Head: many, Deprel: advmod
+ID: 2, Word: many, Head ID: 3, Head: branches, Deprel: amod
+ID: 3, Word: branches, Head ID: 4, Head: has, Deprel: nsubj
+ID: 4, Word: has, Head ID: 0, Head: Root, Deprel: root
+ID: 5, Word: this, Head ID: 6, Head: project, Deprel: det
+ID: 6, Word: project, Head ID: 4, Head: has, Deprel: obj
+ID: 7, Word: ?, Head ID: 4, Head: has, Deprel: punct
+
+Named entities: 
+
+QUESTION 17. What is the name of a default branch?
+Tokens: What
+is
+the
+name
+of
+a
+default
+branch
+?
+
+Pos tags: What: PRON
+is: AUX
+the: DET
+name: NOUN
+of: ADP
+a: DET
+default: NOUN
+branch: NOUN
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: What, Head ID: 0, Head: Root, Deprel: root
+ID: 2, Word: is, Head ID: 1, Head: What, Deprel: cop
+ID: 3, Word: the, Head ID: 4, Head: name, Deprel: det
+ID: 4, Word: name, Head ID: 1, Head: What, Deprel: nsubj
+ID: 5, Word: of, Head ID: 8, Head: branch, Deprel: case
+ID: 6, Word: a, Head ID: 8, Head: branch, Deprel: det
+ID: 7, Word: default, Head ID: 8, Head: branch, Deprel: compound
+ID: 8, Word: branch, Head ID: 4, Head: name, Deprel: nmod
+ID: 9, Word: ?, Head ID: 1, Head: What, Deprel: punct
+
+Named entities: 
+
+QUESTION 18. How many pull requests has this project?
+Tokens: How
+many
+pull
+requests
+has
+this
+project
+?
+
+Pos tags: How: ADV
+many: ADJ
+pull: NOUN
+requests: NOUN
+has: VERB
+this: DET
+project: NOUN
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: How, Head ID: 2, Head: many, Deprel: advmod
+ID: 2, Word: many, Head ID: 4, Head: requests, Deprel: amod
+ID: 3, Word: pull, Head ID: 4, Head: requests, Deprel: compound
+ID: 4, Word: requests, Head ID: 5, Head: has, Deprel: nsubj
+ID: 5, Word: has, Head ID: 0, Head: Root, Deprel: root
+ID: 6, Word: this, Head ID: 7, Head: project, Deprel: det
+ID: 7, Word: project, Head ID: 5, Head: has, Deprel: obj
+ID: 8, Word: ?, Head ID: 5, Head: has, Deprel: punct
+
+Named entities: 
+
+QUESTION 19. When was done the last pull request?
+Tokens: When
+was
+done
+the
+last
+pull
+request
+?
+
+Pos tags: When: ADV
+was: AUX
+done: VERB
+the: DET
+last: ADJ
+pull: NOUN
+request: NOUN
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: When, Head ID: 0, Head: Root, Deprel: root
+ID: 2, Word: was, Head ID: 1, Head: When, Deprel: cop
+ID: 3, Word: done, Head ID: 1, Head: When, Deprel: nsubj
+ID: 4, Word: the, Head ID: 7, Head: request, Deprel: det
+ID: 5, Word: last, Head ID: 7, Head: request, Deprel: amod
+ID: 6, Word: pull, Head ID: 7, Head: request, Deprel: compound
+ID: 7, Word: request, Head ID: 3, Head: done, Deprel: obj
+ID: 8, Word: ?, Head ID: 1, Head: When, Deprel: punct
+
+Named entities: 
+
+QUESTION 20. How many commits has this project?
+Tokens: How
+many
+commits
+has
+this
+project
+?
+
+Pos tags: How: ADV
+many: ADJ
+commits: NOUN
+has: VERB
+this: DET
+project: NOUN
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: How, Head ID: 2, Head: many, Deprel: advmod
+ID: 2, Word: many, Head ID: 3, Head: commits, Deprel: amod
+ID: 3, Word: commits, Head ID: 4, Head: has, Deprel: nsubj
+ID: 4, Word: has, Head ID: 0, Head: Root, Deprel: root
+ID: 5, Word: this, Head ID: 6, Head: project, Deprel: det
+ID: 6, Word: project, Head ID: 4, Head: has, Deprel: obj
+ID: 7, Word: ?, Head ID: 4, Head: has, Deprel: punct
+
+Named entities: 
+
+QUESTION 21. What is this project's commits url?
+Tokens: What
+is
+this
+project
+'s
+commits
+url
+?
+
+Pos tags: What: PRON
+is: AUX
+this: DET
+project: NOUN
+'s: PART
+commits: NOUN
+url: NOUN
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: What, Head ID: 0, Head: Root, Deprel: root
+ID: 2, Word: is, Head ID: 1, Head: What, Deprel: cop
+ID: 3, Word: this, Head ID: 4, Head: project, Deprel: det
+ID: 4, Word: project, Head ID: 7, Head: url, Deprel: nmod:poss
+ID: 5, Word: 's, Head ID: 4, Head: project, Deprel: case
+ID: 6, Word: commits, Head ID: 7, Head: url, Deprel: compound
+ID: 7, Word: url, Head ID: 1, Head: What, Deprel: nsubj
+ID: 8, Word: ?, Head ID: 1, Head: What, Deprel: punct
+
+Named entities: 
+
+QUESTION 22. How many stars does this project have?
+Tokens: How
+many
+stars
+does
+this
+project
+have
+?
+
+Pos tags: How: ADV
+many: ADJ
+stars: NOUN
+does: AUX
+this: DET
+project: NOUN
+have: VERB
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: How, Head ID: 2, Head: many, Deprel: advmod
+ID: 2, Word: many, Head ID: 3, Head: stars, Deprel: amod
+ID: 3, Word: stars, Head ID: 7, Head: have, Deprel: obj
+ID: 4, Word: does, Head ID: 7, Head: have, Deprel: aux
+ID: 5, Word: this, Head ID: 6, Head: project, Deprel: det
+ID: 6, Word: project, Head ID: 7, Head: have, Deprel: nsubj
+ID: 7, Word: have, Head ID: 0, Head: Root, Deprel: root
+ID: 8, Word: ?, Head ID: 7, Head: have, Deprel: punct
+
+Named entities: 
+
+QUESTION 23. How many watchers does this project have?
+Tokens: How
+many
+watchers
+does
+this
+project
+have
+?
+
+Pos tags: How: ADV
+many: ADJ
+watchers: NOUN
+does: AUX
+this: DET
+project: NOUN
+have: VERB
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: How, Head ID: 2, Head: many, Deprel: advmod
+ID: 2, Word: many, Head ID: 3, Head: watchers, Deprel: amod
+ID: 3, Word: watchers, Head ID: 7, Head: have, Deprel: obj
+ID: 4, Word: does, Head ID: 7, Head: have, Deprel: aux
+ID: 5, Word: this, Head ID: 6, Head: project, Deprel: det
+ID: 6, Word: project, Head ID: 7, Head: have, Deprel: nsubj
+ID: 7, Word: have, Head ID: 0, Head: Root, Deprel: root
+ID: 8, Word: ?, Head ID: 7, Head: have, Deprel: punct
+
+Named entities: 
+
+QUESTION 24. How many tags does this project have?
+Tokens: How
+many
+tags
+does
+this
+project
+have
+?
+
+Pos tags: How: ADV
+many: ADJ
+tags: NOUN
+does: AUX
+this: DET
+project: NOUN
+have: VERB
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: How, Head ID: 2, Head: many, Deprel: advmod
+ID: 2, Word: many, Head ID: 3, Head: tags, Deprel: amod
+ID: 3, Word: tags, Head ID: 7, Head: have, Deprel: obj
+ID: 4, Word: does, Head ID: 7, Head: have, Deprel: aux
+ID: 5, Word: this, Head ID: 6, Head: project, Deprel: det
+ID: 6, Word: project, Head ID: 7, Head: have, Deprel: nsubj
+ID: 7, Word: have, Head ID: 0, Head: Root, Deprel: root
+ID: 8, Word: ?, Head ID: 7, Head: have, Deprel: punct
+
+Named entities: 
+
+QUESTION 25. What is this user's ID?
+Tokens: What
+is
+this
+user
+'s
+ID
+?
+
+Pos tags: What: PRON
+is: AUX
+this: DET
+user: NOUN
+'s: PART
+ID: NOUN
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: What, Head ID: 0, Head: Root, Deprel: root
+ID: 2, Word: is, Head ID: 1, Head: What, Deprel: cop
+ID: 3, Word: this, Head ID: 4, Head: user, Deprel: det
+ID: 4, Word: user, Head ID: 6, Head: ID, Deprel: nmod:poss
+ID: 5, Word: 's, Head ID: 4, Head: user, Deprel: case
+ID: 6, Word: ID, Head ID: 1, Head: What, Deprel: nsubj
+ID: 7, Word: ?, Head ID: 1, Head: What, Deprel: punct
+
+Named entities: 
+
+QUESTION 26. What is this user's name?
+Tokens: What
+is
+this
+user
+'s
+name
+?
+
+Pos tags: What: PRON
+is: AUX
+this: DET
+user: NOUN
+'s: PART
+name: NOUN
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: What, Head ID: 0, Head: Root, Deprel: root
+ID: 2, Word: is, Head ID: 1, Head: What, Deprel: cop
+ID: 3, Word: this, Head ID: 4, Head: user, Deprel: det
+ID: 4, Word: user, Head ID: 6, Head: name, Deprel: nmod:poss
+ID: 5, Word: 's, Head ID: 4, Head: user, Deprel: case
+ID: 6, Word: name, Head ID: 1, Head: What, Deprel: nsubj
+ID: 7, Word: ?, Head ID: 1, Head: What, Deprel: punct
+
+Named entities: 
+
+QUESTION 27. What is this user's email?
+Tokens: What
+is
+this
+user
+'s
+email
+?
+
+Pos tags: What: PRON
+is: AUX
+this: DET
+user: NOUN
+'s: PART
+email: NOUN
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: What, Head ID: 0, Head: Root, Deprel: root
+ID: 2, Word: is, Head ID: 1, Head: What, Deprel: cop
+ID: 3, Word: this, Head ID: 4, Head: user, Deprel: det
+ID: 4, Word: user, Head ID: 6, Head: email, Deprel: nmod:poss
+ID: 5, Word: 's, Head ID: 4, Head: user, Deprel: case
+ID: 6, Word: email, Head ID: 1, Head: What, Deprel: nsubj
+ID: 7, Word: ?, Head ID: 1, Head: What, Deprel: punct
+
+Named entities: 
+
+QUESTION 28. What is this user's bio?
+Tokens: What
+is
+this
+user
+'s
+bio
+?
+
+Pos tags: What: PRON
+is: AUX
+this: DET
+user: NOUN
+'s: PART
+bio: NOUN
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: What, Head ID: 0, Head: Root, Deprel: root
+ID: 2, Word: is, Head ID: 1, Head: What, Deprel: cop
+ID: 3, Word: this, Head ID: 4, Head: user, Deprel: det
+ID: 4, Word: user, Head ID: 6, Head: bio, Deprel: nmod:poss
+ID: 5, Word: 's, Head ID: 4, Head: user, Deprel: case
+ID: 6, Word: bio, Head ID: 1, Head: What, Deprel: nsubj
+ID: 7, Word: ?, Head ID: 1, Head: What, Deprel: punct
+
+Named entities: 
+
+QUESTION 29. How many people is this user following?
+Tokens: How
+many
+people
+is
+this
+user
+following
+?
+
+Pos tags: How: ADV
+many: ADJ
+people: NOUN
+is: AUX
+this: DET
+user: NOUN
+following: VERB
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: How, Head ID: 2, Head: many, Deprel: advmod
+ID: 2, Word: many, Head ID: 3, Head: people, Deprel: amod
+ID: 3, Word: people, Head ID: 7, Head: following, Deprel: obj
+ID: 4, Word: is, Head ID: 7, Head: following, Deprel: aux:pass
+ID: 5, Word: this, Head ID: 6, Head: user, Deprel: det
+ID: 6, Word: user, Head ID: 7, Head: following, Deprel: nsubj
+ID: 7, Word: following, Head ID: 0, Head: Root, Deprel: root
+ID: 8, Word: ?, Head ID: 7, Head: following, Deprel: punct
+
+Named entities: 
+
+QUESTION 30. How many people is this user followers?Tokens: How
+many
+people
+is
+this
+user
+followers
+?
+
+Pos tags: How: ADV
+many: ADJ
+people: NOUN
+is: AUX
+this: DET
+user: NOUN
+followers: NOUN
+?: PUNCT
+
+Dependency tree: 
+ID: 1, Word: How, Head ID: 2, Head: many, Deprel: advmod
+ID: 2, Word: many, Head ID: 3, Head: people, Deprel: amod
+ID: 3, Word: people, Head ID: 7, Head: followers, Deprel: nsubj
+ID: 4, Word: is, Head ID: 7, Head: followers, Deprel: cop
+ID: 5, Word: this, Head ID: 7, Head: followers, Deprel: det
+ID: 6, Word: user, Head ID: 7, Head: followers, Deprel: compound
+ID: 7, Word: followers, Head ID: 0, Head: Root, Deprel: root
+ID: 8, Word: ?, Head ID: 7, Head: followers, Deprel: punct
+
+Named entities: 

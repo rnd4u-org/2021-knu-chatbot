@@ -1,0 +1,30 @@
+When was this repository created?
+When was this repository updated?
+Who created this repository?
+What is the language of this repository?
+Who contributed to this project?
+What is this repository's contributors url?
+Does this repository have contributors?
+How many contributors does this project have?
+How many watchers does this repository have?
+How many forks does this repository have?
+Does this repository have downloads?
+What is this repository's ID?
+Is this repository private?
+When was this project created?
+What is the full name of this project?
+How many branches has this project?
+What is the name of a default branch?
+How many pull requests has this project?
+When was done the last pull request?
+How many commits has this project?
+What is this project's commits url?
+How many stars does this project have?
+How many watchers does this project have?
+How many tags does this project have?
+What is this user's ID?
+What is this user's name?
+What is this user's email?
+What is this user's bio?
+How many people is this user following?
+How many people is this user followers?
