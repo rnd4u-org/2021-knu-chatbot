@@ -8,7 +8,7 @@ entities:Project;;;Is the <A>  project blacklisted?;select ?a where { <A> git:is
 entities:Project;;;What shortDescription does the <A> project have?;select ?a where { <A> git:shortDescription ?a };select distinct ?a { ?a git:shortDescription [] }
 entities:Contributor;;;What language does the <A> contributor have?;select ?a where { <A> terms:language ?a };select distinct ?a { ?a terms:language [] }
 entities:Contributor;;;What commitsCount does the <A> contributor have?;select ?a where { <A> git:commitsCount ?a };select distinct ?a { ?a git:commitsCount [] }
-entities:Contributor;;;What contributorGroup does the <A> contributor have?;select ?a where { <A> git:contributorGroup ?a };select distinct ?a { ?a git:contributorGroup [] }
+entities:Contributor;;;what group does the contributor belong to?;select ?a where { <A> git:contributorGroup ?a };select distinct ?a { ?a git:contributorGroup [] }
 entities:Contributor;;;What contributor does the <A> contributor have?;select ?a where { <A> terms:contributor ?a };select distinct ?a { ?a terms:contributor [] }
 entities:Repository;;;when  <A> repository were created ?;select ?a where { <A> terms:created ?a };select distinct ?a { ?a terms:created [] }
 entities:Repository;;;What version does the <A> repository have?;select ?a where { <A> terms:hasVersion ?a };select distinct ?a { ?a terms:hasVersion [] }
