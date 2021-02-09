@@ -6,7 +6,7 @@ entities:Project;;;what homepage does the <any> project have;select ?a where { <
 entities:Project;;;what short description does the <any> project have;select ?a where { <any> git:shortDescription ?a};select distinct ?a where { ?a git:shortDescription [] }
 entities:Project;;;what is <any> project's internal keywords;select ?a where { <any> vocabulary:internalKeyword ?a};select distinct ?a where { ?a vocabulary:internalKeyword [] }
 entities:Project;;;is <any> project blacklisted;select ?a where { <any> git:isBlackList ?a};select distinct ?a where { ?a git:isBlackList [] }
-entities:Project;;;what label does <any> project have;select ?a where { <any> skos:core#prefLabel ?a};select distinct ?a where { ?a skos:core#prefLabel [] }
+entities:Project;;;what label does <any> project have;select ?a where { <any> skos:prefLabel ?a};select distinct ?a where { ?a skos:core#prefLabel [] }
 entities:Project;;;what repository does <any> project have;select ?a where { <any> git:repository ?a};select distinct ?a where { ?a git:repository [] }
 entities:Contributor;;;what avatar does <any contributor have;select ?a where { <any> git:avatar ?a};select distinct ?a where { ?a git:avatar [] }
 entities:Contributor;;;what projects did <any> contributor conribute to;select ?a where { <any> terms:contributor ?a};select distinct ?a where { ?a terms:contributor [] }
@@ -41,3 +41,22 @@ entities:Repository;;;what is the landing page of <any> repository;select ?a whe
 entities:Repository;;;which keyword does <any> repository have;select ?a where { <any> dcat:keyword ?a};select distinct ?a where { ?a dcat:keyword [] }
 entities:Repository;;;what is the label of <any> repository;select ?a where { <any> skos:prefLabel ?a};select distinct ?a where { ?a skos:prefLabel [] }
 entities:Repository;;;what is the broader of <any> repository;select ?a where { <any> skos:broader ?a};select distinct ?a where { ?a skos:broader [] }
+entities:License;;;what is the description of <any> license;select ?a where { <any> terms:description ?a};select distinct ?a where { ?a terms:description [] }
+entities:License;;;what is the id of <any> license;select ?a where { <any> terms:identifier ?a};select distinct ?a where { ?a terms:identifier [] }
+entities:License;;;what is the title of <any> license;select ?a where { <any> terms:title ?a};select distinct ?a where { ?a terms:title [] }
+entities:License;;;what is the body of <any> license;select ?a where { <any> license:body ?a};select distinct ?a where { ?a license:body [] }
+entities:License;;;what are conditions of <any> license;select ?a where { <any> license:conditions ?a};select distinct ?a where { ?a license:conditions [] }
+entities:License;;;how to implement <any> license;select ?a where { <any> license:implementation ?a};select distinct ?a where { ?a license:implementation [] }
+entities:License;;;does <any> license have disclosed source code;select ?a where { <any> license:disclose_source_code ?a};select distinct ?a where { ?a license:disclose_source_code [] }
+entities:License;;;what are the limitations of <any> license;select ?a where { <any> license:limitations ?a};select distinct ?a where { ?a license:limitations [] }
+entities:License;;;does <any> license have modification notice;select ?a where { <any> license:modification_notice ?a};select distinct ?a where { ?a license:modification_notice [] }
+entities:License;;;what is the name of <any> license;select ?a where { <any> license:name ?a};select distinct ?a where { ?a license:name [] }
+entities:License;;;what is the note of <any> license;select ?a where { <any> license:note ?a};select distinct ?a where { ?a license:note [] }
+entities:License;;;what are permissions of <any> license;select ?a where { <any> license:permissions ?a};select distinct ?a where { ?a license:permissions [] }
+entities:License;;;what is the signal of <any> license;select ?a where { <any> license:signal ?a};select distinct ?a where { ?a license:signal [] }
+entities:License;;;what is the label of <any> license;select ?a where { <any> skos:prefLabel ?a};select distinct ?a where { ?a skos:prefLabel [] }
+entities:License;;;does <any> license include copyright attribution;"select ?a where { <any> license:include_copyright_attribution
+ ?a}";"select distinct ?a where { ?a license:include_copyright_attribution
+ [] }"
+entities:License;;;does <any> license include license text;select ?a where { <any> license:include_license_text ?a};select distinct ?a where { ?a license:include_license_text [] }
+entities:License;;;what is the landing page of <any> license;select ?a where { <any> dcat:landingPage ?a};select distinct ?a where { ?a dcat:landingPage [] }
