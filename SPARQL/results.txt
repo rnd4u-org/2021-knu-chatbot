@@ -1,0 +1,55 @@
+QUESTION 1. What license does tayga project have?
+	Answer:  GPL-2.0-or-later
+
+QUESTION 2. Which repositories does tayga project have?
+	Answer:  http://resources.samsung.com/repositories/taglib/taglib
+
+QUESTION 3. Which license and description does tayga project have?
+	License:  GPL-2.0-or-later
+	Description:  TAYGA is an out-of-kernel stateless NAT64 implementation for Linux that uses the TUN driver to exchange IPv4 and IPv6 packets with the kernel. It is intended to provide production-quality NAT64 service for networks where dedicated NAT64 hardware would be overkill.
+
+QUESTION 4. Who contributed to boostorg/boost repository?
+	1.  http://resources.samsung.com/contributors/ericniebler
+	2.  http://resources.samsung.com/contributors/vprus
+	3.  http://resources.samsung.com/contributors/dabrahams
+	4.  http://resources.samsung.com/contributors/boost-commitbot
+	5.  http://resources.samsung.com/contributors/jzmaddock
+	6.  http://resources.samsung.com/contributors/hkaiser
+	7.  http://resources.samsung.com/contributors/jsiek
+	8.  http://resources.samsung.com/contributors/danieljames
+	9.  http://resources.samsung.com/contributors/beman
+	10.  http://resources.samsung.com/contributors/douggregor
+	11.  http://resources.samsung.com/contributors/djowel
+	12.  http://resources.samsung.com/contributors/robertramey
+	13.  http://resources.samsung.com/contributors/pdimov
+	14.  http://resources.samsung.com/contributors/jensmaurer
+	15.  http://resources.samsung.com/contributors/rogeeff
+	16.  http://resources.samsung.com/contributors/jeffgarland
+	17.  http://resources.samsung.com/contributors/turkanis
+	18.  http://resources.samsung.com/contributors/chriskohlhoff
+	19.  http://resources.samsung.com/contributors/jewillco
+	20.  http://resources.samsung.com/contributors/joaquintides
+	21.  http://resources.samsung.com/contributors/grafikrobot
+
+QUESTION 5. Which homepage does tayga project have?
+	Answer:  http://www.litech.org/tayga/
+
+QUESTION 6. What projects did ivanov contribute to?
+	jupyter/colaboratory:5
+	jumziey/pixel:1
+	ponzu-cms/ponzu:2
+	jupyter/notebook:330
+	jupyterlab/jupyterlab:52
+	holoviz/param:1
+	jupyter/nbformat:8
+	jupyter/jupyter_client:20
+	larose/utt:1
+	networkx/grave:6
+	sorich87/bootstrap-tour:5
+	ipython/ipython:678
+	jupyter/jupyter_core:2
+	jupyter/nbconvert:60
+	jupyter/jupyter_console:16
+	jupyter/qtconsole:27
+	jupyter/jupyter_server:330
+	jupyter/governance:8
