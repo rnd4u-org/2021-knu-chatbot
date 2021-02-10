@@ -1,0 +1,11 @@
+ANSWER IN SPARQL SEQUENCE:
+select ?a where{projects:tayga vocabulary:internalKeyword ?a }
+RESPONSE:
+ipv6
+ipv4
+audio
+linux
+audio content
+audio stream
+audio signals
+packet networks
