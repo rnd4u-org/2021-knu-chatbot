@@ -26,17 +26,17 @@ entities:Project;;;what description does the <A> project have;select ?a where { 
 entities:Project;;;what label does the <A> project have;select ?a where { <A> skos:prefLabel ?a };select distinct ?a where { ?a skos:prefLabel [] }
 entities:Project;;;what internal keywords does the <A> project have?;select ?a where { <A> vocabulary:internalKeyword ?a };select distinct ?a where { ?a vocabulary:internalKeyword [] }
 entities:Project;;;what keyword does the <A> have?;select ?a where { <A> dcat:keyword ?a };select distinct ?a where { ?a dcat:keyword [] }
-entities:Repository;;;does the <A> repository have the <B> license?;select ?a where { <A> terms:license <B> };select distinct ?a ?b where { ?a terms:license ?b }
-entities:Repository;;;does the <A> repository have the <B> host?;select ?a where { <A> git:host <B> };select distinct ?a ?b where { ?a git:host ?b }
-entities:Repository;;;does the <A> repository have the <B> title?;select ?a where { <A> terms:title <B> };select distinct ?a ?b where { ?a terms:title ?b }
-entities:Repository;;;does the <A> repository have <B> stars?;select ?a where { <A> git:stars <B> };select distinct ?a ?b where { ?a git stars ?b }
-entities:Repository;;;does the <A> repository have <B> forks?;select ?a where { <A> git:forks <B> };select distinct ?a ?b where { ?a git:forks ?b }
-entities:Repository;;;does the <A> repository have the <B> homepage?;select ?a where { <A> git:homepage <B> };select distinct ?a ?b where { ?a git:homepage ?b }
-entities:Repository;;;does the <A> repository have the <B> varsion?;select ?a where { <A> terms:hasVersion <B> };select distinct ?a ?b where { ?a terms:hasVersion [] ?b}
-entities:License;;;does the <A> license have the <B> type?;select ?a where { <A> rdf:type <B> };select distinct ?a ?b where { ?a rdf:type ?b }
-entities:License;;;does the <A> license have the <B> name?;select ?a where { <A> license:name <B> };select distinct ?a ?b where { ?a license:name ?b }
-entities:License;;;does the <A> license have the <B> title?;select ?a where { <A> terms:title <B> };select distinct ?a ?b where { ?a terms:title ?b }
+entities:Repository;;;does the <A> repository have the <B> license?;ask ?a where { <A> terms:license <B> };select distinct ?a ?b where { ?a terms:license ?b }
+entities:Repository;;;does the <A> repository have the <B> host?;ask ?a where { <A> git:host <B> };select distinct ?a ?b where { ?a git:host ?b }
+entities:Repository;;;does the <A> repository have the <B> title?;ask ?a where { <A> terms:title <B> };select distinct ?a ?b where { ?a terms:title ?b }
+entities:Repository;;;does the <A> repository have <B> stars?;ask ?a where { <A> git:stars <B> };select distinct ?a ?b where { ?a git stars ?b }
+entities:Repository;;;does the <A> repository have <B> forks?;ask ?a where { <A> git:forks <B> };select distinct ?a ?b where { ?a git:forks ?b }
+entities:Repository;;;does the <A> repository have the <B> homepage?;ask ?a where { <A> git:homepage <B> };select distinct ?a ?b where { ?a git:homepage ?b }
+entities:Repository;;;does the <A> repository have the <B> version?;ask ?a where { <A> terms:hasVersion <B> };select distinct ?a ?b where { ?a terms:hasVersion ?b}
+entities:License;;;does the <A> license have the <B> type?;ask ?a where { <A> rdf:type <B> };select distinct ?a ?b where { ?a rdf:type ?b }
+entities:License;;;does the <A> license have the <B> name?;ask ?a where { <A> license:name <B> };select distinct ?a ?b where { ?a license:name ?b }
+entities:License;;;does the <A> license have the <B> title?;ask ?a where { <A> terms:title <B> };select distinct ?a ?b where { ?a terms:title ?b }
 entities:Project;;;does the <A> project have the <B> repository?;ask ?a where { <A> git:repository <B> };select distinct ?a ?b where { ?a git:repository ?b }   
 entities:Project;;;does the <A> project have the <B> license;ask ?a where { <A> git:license <B> };select distinct ?a ?b where { ?a git:license ?b }
-entities:Project;;;does the <A> project have the <B> keyword?;select ?a where { <A> dcat:keyword <B> };select distinct ?a ?b where { ?a dcat:keyword ?b }
-entities:Project;;;does the <A> project have the <B> homepage?;select ?a where { <A> git:homepage <B> };select distinct ?a ?b where { ?a git:homepage ?b }
+entities:Project;;;does the <A> project have the <B> keyword?;ask ?a where { <A> dcat:keyword <B> };select distinct ?a ?b where { ?a dcat:keyword ?b }
+entities:Project;;;does the <A> project have the <B> homepage?;ask ?a where { <A> git:homepage <B> };select distinct ?a ?b where { ?a git:homepage ?b }
