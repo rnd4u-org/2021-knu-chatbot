@@ -4,75 +4,10 @@ import os
 
 
 def get_token():
-    token = input("Привет, введи свой токен: ")
+    token = input("Привет,введи свой токен: ")
     token = os.getenv('GITHUB_TOKEN', str(token))
     g = Github(token)
     return g
-
-def main():
-	g = get_token()
-	user = g.get_user()
-	try:
-	    user.login
-	except Exception:
-	    print("Токен не верный. Попробуйте ещё раз")
-	    g = get_token()
-	i = 0
-	while i == 0:
-	    choice = actions()
-	    if choice == "1":
-	        a = action_1()
-	        if a == "1":
-	            create_repo()
-	            i = action_exit(i)
-	        if a == "2":
-	            delete_repo()
-	            i = action_exit(i)
-	        if a == "3":
-	            i += 1
-	        if a not in ["1", "2", "3"]:
-	            print("Вы ввели не верное число попробуйте еще раз")
-	    if choice == "2":
-	        b = action_2()
-	        if b == "1":
-	            find_repo()
-	            i = action_exit(i)
-	        if b == "2":
-	            i += 1
-	        if b not in ["1", "2"]:
-	            print("Вы ввели не верное число попробуйте еще раз")
-	    if choice == "3":
-	        c = action_3()
-	        if c == "1":
-	            add_repo()
-	            i = action_exit(i)
-	        if c == "2":
-	            remove_repo()
-	            i = action_exit(i)
-	        if c == "3":
-	            i += 1
-	        if c not in ["1", "2", "3"]:
-	            print("Вы ввели не верное число попробуйте еще раз")
-	    if choice == "4":
-	        d = action_4()
-	        if d == "1":
-	            create_branch()
-	            i = action_exit(i)
-	        if d == "2":
-	            delete_branch()
-	            i = action_exit(i)
-	        if d == "3":
-	            i += 1
-	        if d not in ["1", "2", "3"]:
-	            print("Вы ввели не верное число попробуйте еще раз")
-	    if choice == "5":
-	        i += 1
-	    if choice not in ["1", "2", "3", "4", "5"]:
-	        print("Вы ввели не верное число попробуйте еще раз")
-	print("Процес завершен")
-
-if __name__ == '__main__':
-	main()
 
 
 def actions():
@@ -82,8 +17,8 @@ def actions():
         3 - добавить\удалить участников репозитория
         4 - создать\удалить ветку
         5 - выход""")
-    choice = input(": ")
-    return choice
+    chosen_action = input(": ")
+    return chosen_action
 
 
 def action_1():
@@ -91,14 +26,14 @@ def action_1():
         1 - создать репозиторий с именем
         2 - удалить репозиторий с именем
         3 - выход""")
-    first_block= input(": ")
-    return first_block
+    first_block_cho_act = input(": ")
+    return first_block_cho_act
 
 
 def action_exit(i):
-    print("""Хотите сделать что-то еще ?
-            1 - yes
-            2 - no""")
+    print("""Хотите сделать что-то еще?
+            1 - да
+            2 - нет""")
     choice_y_no = input(": ")
     if choice_y_no == "2":
         i += 1
@@ -133,8 +68,8 @@ def action_2():
     print("""Выберите действие:
         1 - найти репозиторий и вернуть базовую информацию
         2 - выход""")
-    sec_block = input(": ")
-    return sec_block
+    sec_block_cho_act = input(": ")
+    return sec_block_cho_act
 
 
 def find_repo():
@@ -159,12 +94,12 @@ def action_3():
          1 - добавить участника в репозиторий
          2 - удалить участника из репозитория
          3 - выход""")
-    third_block = input(": ")
-    return third_block
+    third_block_cho_act = input(": ")
+    return third_block_cho_act
 
 
 def add_repo():
-    print("Введите имя репозитория")
+    print("Введите имя репозитория.")
     name_repo = input(": ")
     try:
         repo = g.get_repo("{}/{}".format(user.login, name_repo))
@@ -176,7 +111,7 @@ def add_repo():
         except Exception:
             print("Не может быть добавлен")
     except Exception:
-        print("Этот репозиторий не найден")
+        print("Этот репозиторий не существует")
 
 
 def remove_repo():
@@ -200,8 +135,8 @@ def action_4():
         1 - создать ветку 
         2 - удалить ветку
         3 - выход""")
-    four_block = input(": ")
-    return four_block
+    four_block_cho_act = input(": ")
+    return four_block_cho_act
 
 
 def create_branch():
@@ -228,8 +163,70 @@ def delete_branch():
         try:
             sb = repo.get_git_ref(ref='heads/' + branch)
             sb.delete()
-            print("Удалено")
+            print("Удалена")
         except Exception:
             print("Эта ветка не найдена")
     except Exception:
-        print("Этот репозиторий не существует")
+        print("Этот репозиторий не найден")
+
+
+g = get_token()
+user = g.get_user()
+try:
+    user.login
+except Exception:
+    print("Токен не верный. Попробуйте ещё раз")
+    g = get_token()
+i = 0
+while i == 0:
+    chosen_action = actions()
+    if chosen_action == "1":
+        f = action_1()
+        if f == "1":
+            create_repo()
+            i = action_exit(i)
+        if f == "2":
+            delete_repo()
+            i = action_exit(i)
+        if f == "3":
+            i += 1
+        if f not in ["1", "2", "3", "4"]:
+            print("Вы ввели не верное число попробуйте еще раз")
+    if chosen_action == "2":
+        s = action_2()
+        if s == "1":
+            find_repo()
+            i = action_exit(i)
+        if s == "2":
+            i += 1
+        if s not in ["1", "2"]:
+            print("Вы ввели не верное число попробуйте еще раз")
+    if chosen_action == "3":
+        t = action_3()
+        if t == "1":
+            add_repo()
+            i = action_exit(i)
+        if t == "2":
+            remove_repo()
+            i = action_exit(i)
+        if t == "3":
+            i += 1
+        if t not in ["1", "2", "3"]:
+            print("Вы ввели не верное число попробуйте еще раз")
+    if chosen_action == "4":
+        four = action_4()
+        if four == "1":
+            create_branch()
+            i = action_exit(i)
+        if four == "2":
+            delete_branch()
+            i = action_exit(i)
+        if four == "3":
+            i += 1
+        if four not in ["1", "2", "3"]:
+            print("Вы ввели не верное число попробуйте еще раз")
+    if chosen_action == "5":
+        i += 1
+    if chosen_action not in ["1", "2", "3", "4", "5"]:
+        print("Вы ввели не верное число попробуйте еще раз")
+print("Process is finished.")
