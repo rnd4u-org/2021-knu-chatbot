@@ -1,0 +1,92 @@
+entities:Contributor;;;what is <A> contributor's group;select ?a where { <A> git:contributorGroup ?a};select distinct ?a where { ?a git:contributorGroup [] }
+entities:Contributor;;;what is contributor group of <A>;select ?a where { <A> git:contributorGroup ?a};select distinct ?a where { ?a git:contributorGroup [] }
+entities:Contributor;;;what is <A> contributor's name;select ?a where { <A> foaf:name ?a};select distinct ?a where { ?a foaf:name [] }
+entities:Contributor;;;what is the name of <A> contributor;select ?a where { <A> foaf:name ?a};select distinct ?a where { ?a foaf:name [] }
+entities:Contributor;;;what is <A> contributor's account name;select ?a where { <A> foaf:accountName ?a};select distinct ?a where { ?a foaf:accountName [] }
+entities:Contributor;;;what is <A> contributor's online chat account name;select ?a where { <A> foaf:OnlineChatAccount ?a};select distinct ?a where { ?a foaf:OnlineChatAccount [] } 
+entities:Contributor;;;what avatar does <A> contributor have;select ?a where { <A> git:avatar ?a};select distinct ?a where { ?a git:avatar [] }
+entities:Contributor;;;what avatar in <A> contributor;select ?a where { <A> git:avatar ?a};select distinct ?a where { ?a git:avatar [] }
+entities:Contributor;;;what projects did <A> contributor conribute to;select ?a where { <A> terms:contributor ?a};select distinct ?a where { ?a terms:contributor [] }
+entities:Contributor;;;what languages does <A> contributor use;select ?a where { <A> terms:language ?a};select distinct ?a where { ?a terms:language [] }
+entities:Contributor;;;what is the contributor <A> languages;select ?a where { <A> terms:language ?a};select distinct ?a where { ?a terms:language [] }
+entities:Contributor;;;how many commits does <A> contributor have;select ?a where { <A> git:commitsCount ?a};select distinct ?a where { ?a git:commitsCount [] }
+entities:Contributor;;;which keyword does <A> contributor have;select ?a where { <A> dcat:keyword ?a};select distinct ?a where { ?a dcat:keyword [] }
+entities:Contributor;;;which <A> contributor's keyword;select ?a where { <A> dcat:keyword ?a};select distinct ?a where { ?a dcat:keyword [] }
+entities:Project;;;what description does the <A> project have;select ?a where { <A> terms:description ?a};select distinct ?a where { ?a terms:description [] }
+entities:Project;;;what is description of the <A> project's;select ?a where { <A> terms:description ?a};select distinct ?a where { ?a terms:description [] }
+entities:Project;;;what license does the <A> project have;select ?a where { <A> terms:license ?a};select distinct ?a where { ?a terms:license [] }
+entities:Project;;;what is license of the <A> project's;select ?a where { <A> terms:license ?a};select distinct ?a where { ?a terms:license [] }
+entities:Project;;;what title does the <A> project have;select ?a where { <A> terms:title ?a};select distinct ?a where { ?a terms:title [] }
+entities:Project;;;what is title of the <A> project's;select ?a where { <A> terms:title ?a};select distinct ?a where { ?a terms:title [] }
+entities:Project;;;what avatar does the <A> project have;select ?a where { <A> git:avatar ?a};select distinct ?a where { ?a git:avatar [] }
+entities:Project;;;what is avatar of the <A> project's;select ?a where { <A> git:avatar ?a};select distinct ?a where { ?a git:avatar [] }
+entities:Project;;;what is the project avatar <A>;select ?a where { <A> git:avatar ?a};select distinct ?a where { ?a git:avatar [] }
+entities:Project;;;what homepage does the <A> project have;select ?a where { <A> git:homepage ?a};select distinct ?a where { ?a git:homepage [] }
+entities:Project;;;what is the home page of project <A>;select ?a where { <A> git:homepage ?a};select distinct ?a where { ?a git:homepage [] }
+entities:Project;;;what short description does the <A> project have;select ?a where { <A> git:shortDescription ?a};select distinct ?a where { ?a git:shortDescription [] }
+entities:Project;;;what is the short description of the project <A>;select ?a where { <A> git:shortDescription ?a};select distinct ?a where { ?a git:shortDescription [] }
+entities:Project;;;what is <A> project's internal keywords;select ?a where { <A> vocabulary:internalKeyword ?a};select distinct ?a where { ?a vocabulary:internalKeyword [] }
+entities:Project;;;what are internal project keywords <A>;select ?a where { <A> vocabulary:internalKeyword ?a};select distinct ?a where { ?a vocabulary:internalKeyword [] }
+entities:Project;;;is <A> project blacklisted;select ?a where { <A> git:isBlackList ?a};select distinct ?a where { ?a git:isBlackList [] }
+entities:Project;;;what label does <A> project have;select ?a where { <A> skos:prefLabel ?a};select distinct ?a where { ?a skos:core#prefLabel [] }
+entities:Project;;;what label does project <A> have;select ?a where { <A> skos:prefLabel ?a};select distinct ?a where { ?a skos:core#prefLabel [] }
+entities:Project;;;what repository does <A> project have;select ?a where { <A> git:repository ?a};select distinct ?a where { ?a git:repository [] }
+entities:Project;;;what repository does project <A> have;select ?a where { <A> git:repository ?a};select distinct ?a where { ?a git:repository [] }
+entities:Contributor;;;what bio does <A> contributor have;select ?a where { <A> git:bio ?a};select distinct ?a where { ?a git:bio [] }
+entities:Contributor;;;what is the bio of contributor <A>;select ?a where { <A> git:bio ?a};select distinct ?a where { ?a git:bio [] }
+entities:Repository;;;what title does the <A> repository have;select ?a where { <A> terms:title ?a};select distinct ?a where { ?a terms:title [] }
+entities:Repository;;;what header does repository <A> have;select ?a where { <A> terms:title ?a};select distinct ?a where { ?a terms:title [] }
+entities:Repository;;;what is <A> repository's id;select ?a where { <A> terms:identifier ?a};select distinct ?a where { ?a terms:identifier [] }
+entities:Repository;;;what is the id of <A> repository;select ?a where { <A> terms:identifier ?a};select distinct ?a where { ?a terms:identifier [] }
+entities:Repository;;;when was <A> repository created;select ?a where { <A> terms:created ?a};select distinct ?a where { ?a terms:created [] }
+entities:Repository;;;what is <A> repository's description;select ?a where { <A> terms:description ?a};select distinct ?a where { ?a terms:description [] }
+entities:Repository;;;what is the description of the repository <A>;select ?a where { <A> terms:description ?a};select distinct ?a where { ?a terms:description [] }
+entities:Repository;;;what is <A> repository's version;select ?a where { <A> terms:hasVersion ?a};select distinct ?a where { ?a terms:hasVersion [] }
+entities:Repository;;;what version of repository <A>;select ?a where { <A> terms:hasVersion ?a};select distinct ?a where { ?a terms:hasVersion [] }
+entities:Repository;;;what is the size of <A> repository;select ?a where { <A> git:size ?a};select distinct ?a where { ?a git:size [] }
+entities:Repository;;;what is the size of the repository <A>;select ?a where { <A> git:size ?a};select distinct ?a where { ?a git:size [] }
+entities:Repository;;;how mA forks does <A> repository have;select ?a where { <A> git:forks ?a};select distinct ?a where { ?a git:forks [] }
+entities:Repository;;;what is <A> repository's homepage;select ?a where { <A> git:homepage ?a};select distinct ?a where { ?a git:homepage [] }
+entities:Repository;;;what is the host of <A> repository;select ?a where { <A> git:host ?a};select distinct ?a where { ?a git:host [] }
+entities:Repository;;;how mA subscribers does <A> repository have;select ?a where { <A> git:subscribers ?a};select distinct ?a where { ?a git:subscribers [] }
+entities:Repository;;;how mA stars does <A> repository have;select ?a where { <A> git:stars ?a};select distinct ?a where { ?a git:stars [] }
+entities:License;;;what is the title of <A> license;select ?a where { <A> terms:title ?a};select distinct ?a where { ?a terms:title [] }
+entities:License;;;what is the body of <A> license;select ?a where { <A> license:body ?a};select distinct ?a where { ?a license:body [] }
+entities:License;;;what are conditions of <A> license;select ?a where { <A> license:conditions ?a};select distinct ?a where { ?a license:conditions [] }
+entities:License;;;how to implement <A> license;select ?a where { <A> license:implementation ?a};select distinct ?a where { ?a license:implementation [] }
+entities:License;;;does <A> license have disclosed source code;select ?a where { <A> license:disclose_source_code ?a};select distinct ?a where { ?a license:disclose_source_code [] }
+entities:License;;;what are the limitations of <A> license;select ?a where { <A> license:limitations ?a};select distinct ?a where { ?a license:limitations [] }
+entities:License;;;does <A> license have modification notice;select ?a where { <A> license:modification_notice ?a};select distinct ?a where { ?a license:modification_notice [] }
+entities:License;;;what is the name of <A> license;select ?a where { <A> license:name ?a};select distinct ?a where { ?a license:name [] }
+entities:License;;;what is the note of <A> license;select ?a where { <A> license:note ?a};select distinct ?a where { ?a license:note [] }
+entities:License;;;what are permissions of <A> license;select ?a where { <A> license:permissions ?a};select distinct ?a where { ?a license:permissions [] }
+entities:License;;;what is the signal of <A> license;select ?a where { <A> license:signal ?a};select distinct ?a where { ?a license:signal [] }
+entities:License;;;what is the label of <A> license;select ?a where { <A> skos:prefLabel ?a};select distinct ?a where { ?a skos:prefLabel [] }
+entities:License;;;does <A> license include license text;select ?a where { <A> license:include_license_text ?a};select distinct ?a where { ?a license:include_license_text [] }
+entities:License;;;what is the landing page of <A> license;select ?a where { <A> dcat:landingPage ?a};select distinct ?a where { ?a dcat:landingPage [] }
+entities:Repository;;;what is the rank of <A> repository;select ?a where { <A> git:rank ?a};select distinct ?a where { ?a git:rank [] }
+entities:Repository;;;what is the rating of the repository <A>;select ?a where { <A> git:rank ?a};select distinct ?a where { ?a git:rank [] }
+entities:Repository;;;what is the revision date of <A> repository;select ?a where { <A> git:revisionDate ?a};select distinct ?a where { ?a git:revisionDate [] }
+entities:Repository;;;what is the revision date of repository <A>;select ?a where { <A> git:revisionDate ?a};select distinct ?a where { ?a git:revisionDate [] }
+entities:Repository;;;what is the landing page of <A> repository;select ?a where { <A> dcat:landingPage ?a};select distinct ?a where { ?a dcat:landingPage [] }
+entities:Repository;;;what is the <A> repository landing page;select ?a where { <A> dcat:landingPage ?a};select distinct ?a where { ?a dcat:landingPage [] }
+entities:Repository;;;which keyword does <A> repository have;select ?a where { <A> dcat:keyword ?a};select distinct ?a where { ?a dcat:keyword [] }
+entities:Repository;;;what is the label of <A> repository;select ?a where { <A> skos:prefLabel ?a};select distinct ?a where { ?a skos:prefLabel [] }
+entities:Repository;;;what is the label of the repository <A>;select ?a where { <A> skos:prefLabel ?a};select distinct ?a where { ?a skos:prefLabel [] }
+entities:Repository;;;what is the broader of <A> repository;select ?a where { <A> skos:broader ?a};select distinct ?a where { ?a skos:broader [] }
+entities:License;;;what is the description of <A> license;select ?a where { <A> terms:description ?a};select distinct ?a where { ?a terms:description [] }
+entities:License;;;what is the description of the license of <A>;select ?a where { <A> terms:description ?a};select distinct ?a where { ?a terms:description [] }
+entities:License;;;what is the id of <A> license;select ?a where { <A> terms:identifier ?a};select distinct ?a where { ?a terms:identifier [] }
+entities:License;;;what is the license identifier <A>;select ?a where { <A> terms:identifier ?a};select distinct ?a where { ?a terms:identifier [] }
+entities:Repository;;;what languages does <A> repository use;select ?a where { <A> terms:language ?a};select distinct ?a where { ?a terms:language [] }
+entities:Repository;;;what languages ​​does the <A> repository use;select ?a where { <A> terms:language ?a};select distinct ?a where { ?a terms:language [] }
+entities:Repository;;;what license does the <A> repository have;select ?a where { <A> terms:license ?a};select distinct ?a where { ?a terms:license [] }
+entities:Repository;;;what license does repository <A> have;select ?a where { <A> terms:license ?a};select distinct ?a where { ?a terms:license [] }
+entities:Repository;;;when was <A> repository modified;select ?a where { <A> terms:modified ?a};select distinct ?a where { ?a terms:modified [] }
+entities:Repository;;;when was repository <A> changed;select ?a where { <A> terms:modified ?a};select distinct ?a where { ?a terms:modified [] }
+entities:Repository;;;what is <A> repository's safety score;select ?a where { <A> cve2:safetyScore ?a};select distinct ?a where { ?a cve2:safetyScore [] }
+entities:Repository;;;what is the security rating of repository <A>;select ?a where { <A> cve2:safetyScore ?a};select distinct ?a where { ?a cve2:safetyScore [] }
+entities:Repository;;;what is <A> repository's avatar;select ?a where { <A> git:avatar ?a};select distinct ?a where { ?a git:avatar [] }
+entities:Repository;;;what is the repository avatar <A>;select ?a where { <A> git:avatar ?a};select distinct ?a where { ?a git:avatar [] }
+entities:Repository;;;how many contributions does <A> repository have;select ?a where { <A> git:contributions ?a};select distinct ?a where { ?a git:contributions [] }
+
