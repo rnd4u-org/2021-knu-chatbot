@@ -1,0 +1,10 @@
+entities:Project;;;What avatar does the <A> have?;select ?a where {  <A> git:avatar ?a };select distinct ?a { ?a git:avatar [] }
+entities:Project;;;Which description does the <A> have?;select ?a where {  <A> terms:description ?a };select distinct ?a { ?a terms:description [] }
+entities:Project;;;What repositories does the <A> have?;select ?a where {  <A> git:repository ?a };select distinct ?a { ?a git:repository [] }
+entities:Project;;;What title does the <A> have?;select ?a where {  <A> terms:title ?a };select distinct ?a { ?a terms:title [] }
+entities:Project;;;Which homepage does the <A> have?;select ?a where {  <A> git:homepage ?a };select distinct ?a { ?a git:homepage [] }
+entities:Project;;;What is the short description of the <A>?;select ?a where {  <A> git:shortDescription ?a };select distinct ?a { ?a git:shortDescription [] }
+entities:Project;;;What internal keywords does the <A> have?;select ?a where {  <A> vocabulary:internalKeyword ?a };select distinct ?a { ?a vocabulary:internalKeyword [] }
+entities:Project;;;What license does the <A> have?;select ?a where {  <A> terms:license ?a };select distinct ?a { ?a terms:license [] }
+entities:Project;;;Which label does the <A> have?;select ?a where {  <A> skos:core#prefLabel ?a };select distinct ?a { ?a skos:core#prefLabel [] }
+entities:Project;;;Which top of address does the <A> have?;select ?a where {  <A> skos:core#topConceptOf ?a };select distinct ?a { ?a skos:core#topConceptOf [] }
